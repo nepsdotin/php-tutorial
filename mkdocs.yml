@@ -1,0 +1,14 @@
+site_name: Web Development Using PHP, CakePHP
+
+theme: readthedocs
+
+pages:
+- [motivation.md, Motivation]
+- [unit-3/php-1.md, PHP 1.0]
+- [unit-3/php-installation.md, Installing PHP]
+- [unit-3/how-web-works.md, How Web Works]
+- [unit-3/how-php-works.md, How PHP Works]
+- [unit-3/data-types.md, Data Type available in PHP]
+- [unit-3/arrays.md, Arrays in PHP]
+- [further-readings.md, Further Readings on PHP]
+- [refe.md, References]
