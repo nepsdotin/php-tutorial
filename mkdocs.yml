@@ -3,6 +3,7 @@ site_name: Web Development Using PHP, CakePHP
 theme: readthedocs
 
 pages:
+- [index.md, Home]
 - [motivation.md, Motivation]
 - [unit-3/php-1.md, PHP 1.0]
 - [unit-3/php-installation.md, Installing PHP]
