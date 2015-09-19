@@ -1,10 +1,6 @@
 # php-tutorial
 
-An Easy to use Tutorial for PHP.
-
 Welcome To PHP Tutorial
-
-These are the course content that were used in a git workshop conducted by me.
 
 You can read it
 
@@ -21,7 +17,7 @@ If you want you can use it with due credits to me by Placing my Name (Napoleon A
 You can clone it
 
 ```
-$git clone https://github.com/nepsdotin/php-tutorial.git
+$ git clone https://github.com/nepsdotin/php-tutorial.git
 ```
 
 The docs folder has all the content in markdown. You can read it.
@@ -34,8 +30,8 @@ mkdocs build --clean
 
 The site folder contains all the html files and you can view in any browsers.
 
-
-markdown format 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+More info on markdown format.
+[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]
+(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 IF you find any issues with the content pls raise it on the issue tracker
 [click here](https://github.com/nepsdotin/php-tutorial/issues)
