@@ -8,6 +8,22 @@
 $a_bool = TRUE;   // a boolean
 $a_bool = true;   // a boolean
 
+$b_bool = FALSE;
+```
+echo $a_bool;
+
+# $b_bool (FALSE) doesn't output anything because
+# it gets converted to string, String equvalent of false is '' empty string
+# hence you don't see anything.
+echo $b_bool;
+
+# lets try 
+var_dump($b_bool);
+
+# output
+false;
+```
+
 #### integer
 $an_int = 12;     // an integer
 
