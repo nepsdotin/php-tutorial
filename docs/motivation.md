@@ -6,7 +6,7 @@
 ![](images/amit-singhal.jpg)
 ----
 ## Rasmus Lerdorf, Creator of PHP
-![](images/Rasmus_Lerdorf_August_2014_cropped.JPG)
+![](images/rasmus.jpg)
 ----
 ## Tim Berners Lee. Creator of Hypertext Markup Language when he was working for CERN.
 ![](images/TimBL-bw-big-400-bright.jpeg)
