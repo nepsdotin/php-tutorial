@@ -1,0 +1,2598 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"curr_",
+				"curr_row"
+			],
+			[
+				"lay",
+				"layout"
+			],
+			[
+				"date_c",
+				"date_created"
+			],
+			[
+				"Partners",
+				"partners_item_registration_mapping"
+			],
+			[
+				"findby",
+				"findByAttributes"
+			],
+			[
+				"part",
+				"partner_id_arr"
+			],
+			[
+				"findb",
+				"findByPk"
+			],
+			[
+				"pickup",
+				"pickup_center_id"
+			],
+			[
+				"enabled",
+				"enabled"
+			],
+			[
+				"registr",
+				"registration_id"
+			],
+			[
+				"partner",
+				"partner_mapping_model"
+			],
+			[
+				"integ",
+				"integerOnly"
+			],
+			[
+				"prev_",
+				"prev_thumb_img"
+			],
+			[
+				"pi",
+				"pickuppoint_model"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"mypickup",
+				"mypickup_centers"
+			],
+			[
+				"userposted",
+				"userpostedasset_model"
+			],
+			[
+				"database",
+				"databaseName"
+			],
+			[
+				"prop",
+				"prop-content"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"web",
+				"web-site-assets"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"tie",
+				"tie-up-section"
+			],
+			[
+				"ti",
+				"tieups-item-container"
+			],
+			[
+				"tim",
+				"tieups-item-container"
+			],
+			[
+				"min",
+				"min_area_var"
+			],
+			[
+				"max_",
+				"max_area_var"
+			],
+			[
+				"min_pr",
+				"min_price_var"
+			],
+			[
+				"header",
+				"headertemplate"
+			],
+			[
+				"proj_im",
+				"proj_img_model"
+			],
+			[
+				"json",
+				"json2html"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"floor",
+				"floors_count"
+			],
+			[
+				"sf",
+				"sf-menu"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ab",
+				"about-sec"
+			],
+			[
+				"fli",
+				"flipper"
+			],
+			[
+				"flip-c",
+				"flip-container1"
+			],
+			[
+				"car",
+				"card-1"
+			],
+			[
+				"search",
+				"search-main"
+			],
+			[
+				"m",
+				"mainmenu"
+			],
+			[
+				"stage_",
+				"stage_arr"
+			],
+			[
+				"proj_id",
+				"proj_id_arr"
+			],
+			[
+				"es-",
+				"es-stage"
+			],
+			[
+				"height",
+				"height_loc_div"
+			],
+			[
+				"Proj",
+				"projectTbl"
+			],
+			[
+				"proj",
+				"proj_loc_array"
+			],
+			[
+				"Locality",
+				"LocalityTbl"
+			],
+			[
+				"local",
+				"locality_id"
+			],
+			[
+				"Mo",
+				"MOUSE"
+			],
+			[
+				"short",
+				"short_code_arr"
+			],
+			[
+				"mouse",
+				"mouse_scroll"
+			],
+			[
+				"locality",
+				"localitymodel"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"app",
+				"application_vendor"
+			],
+			[
+				"appl",
+				"application_name"
+			],
+			[
+				"term",
+				"term_arr"
+			],
+			[
+				"weown",
+				"weownprod1"
+			],
+			[
+				"redirec",
+				"redirect"
+			],
+			[
+				"meta",
+				"meta_description"
+			],
+			[
+				"loca",
+				"locality_id"
+			],
+			[
+				"city",
+				"city_id"
+			],
+			[
+				"stat",
+				"statename"
+			],
+			[
+				"TheCKEdi",
+				"theCKEditorWidget"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"slid",
+				"slidedown"
+			],
+			[
+				"fina",
+				"finalposition"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"dept",
+				"dept_rows"
+			],
+			[
+				"filter",
+				"filter_input"
+			],
+			[
+				"fil",
+				"filter_input"
+			],
+			[
+				"vendor",
+				"vendor_s"
+			],
+			[
+				"query",
+				"query_full"
+			],
+			[
+				"inc",
+				"include_once"
+			],
+			[
+				"sel",
+				"selectedvalues"
+			],
+			[
+				"mul",
+				"mul_attr_sel"
+			],
+			[
+				"selec",
+				"selectedvalue"
+			],
+			[
+				"btn",
+				"btnlinks"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"page",
+				"PageNo"
+			],
+			[
+				"has",
+				"hash_result"
+			],
+			[
+				"arr_",
+				"arr_desc_avlbl"
+			],
+			[
+				"coun",
+				"country_serv_arr"
+			],
+			[
+				"countr",
+				"country_serv_phrase"
+			],
+			[
+				"count",
+				"Country"
+			],
+			[
+				"uni",
+				"unique_lang_arr"
+			],
+			[
+				"la",
+				"languages_avlbl_array"
+			],
+			[
+				"us",
+				"usr_input"
+			],
+			[
+				"langua",
+				"languages_avl"
+			],
+			[
+				"trans_re",
+				"trans_req_country_arr"
+			],
+			[
+				"desc_",
+				"desc_avlbl_phrase"
+			],
+			[
+				"pdf",
+				"pdfString"
+			],
+			[
+				"trans",
+				"trans_req_str"
+			],
+			[
+				"get",
+				"getSettings"
+			],
+			[
+				"set",
+				"setSettings"
+			],
+			[
+				"claim",
+				"claims_avlbl_str"
+			],
+			[
+				"desc",
+				"desc_avlbl_str"
+			],
+			[
+				"wit",
+				"width"
+			],
+			[
+				"country",
+				"country_serv_reqd"
+			],
+			[
+				"home-sec-5-m",
+				"home-sec-5-manual-form"
+			],
+			[
+				"home-sec-5-mquote-form",
+				"home-sec-5-mquote-formsg"
+			],
+			[
+				"show",
+				"show-4"
+			],
+			[
+				"select-none",
+				"select-none-link-serv"
+			],
+			[
+				"claims",
+				"claims_avlbl"
+			],
+			[
+				"serv",
+				"service_countries"
+			],
+			[
+				"ar",
+				"array	$… = array (…)"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"BuildSQLCol",
+				"BuildSQLColumnValues"
+			],
+			[
+				"lang",
+				"language-txt"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"sec-4",
+				"sec-4-lower-bg"
+			],
+			[
+				"prev",
+				"preventDefault"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/AMPPS/www/2015/pes/functions/function_ex_1.php",
+			"settings":
+			{
+				"buffer_size": 372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/AMPPS/www/2015/pes/functions/recursive.php",
+			"settings":
+			{
+				"buffer_size": 148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/AMPPS/www/2015/pes/functions/passby_value.php",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mkdocs.yml",
+			"settings":
+			{
+				"buffer_size": 641,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docs/unit-3/u3-echo.md",
+			"settings":
+			{
+				"buffer_size": 3759,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/AMPPS/www/2015/pes/fun/header/one.php",
+			"settings":
+			{
+				"buffer_size": 28,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/AMPPS/www/2015/pes/fun/header/two.php",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/AMPPS/www/2015/pes/fun/header/three.php",
+			"settings":
+			{
+				"buffer_size": 38,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docs/unit-3/constants.md",
+			"settings":
+			{
+				"buffer_size": 956,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docs/unit-5/class.md",
+			"settings":
+			{
+				"buffer_size": 799,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/AMPPS/www/2015/pes/functions/default_arguments.php",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docs/unit-4/functions.md",
+			"settings":
+			{
+				"buffer_size": 2446,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"mark",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"json ",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: JSON query with ./jq"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"url",
+				"URL Decode"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty ",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pretty j",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"commen",
+				"Toggle Block Comment"
+			],
+			[
+				"comm",
+				"Toggle Block Comment"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 123.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/AMPPS/www/2015/pes/display_cont.php",
+		"/Users/napoleon/PES/docs/unit-4/functions.md",
+		"/Applications/AMPPS/www/2015/pes/heredoc_nowdoc.php",
+		"/Applications/AMPPS/www/2015/pes/functions/passby_ref.php",
+		"/Applications/AMPPS/www/2015/pes/functions/function_within_function.php",
+		"/Applications/AMPPS/www/2015/pes/functions/function_ex_1.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/bootstrap/views/layouts/dashboard.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/config/main.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/notes/code-todo.md",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/bootstrap/views/layouts/main.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/assets/less/variables.less",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/bootstrap/css/custom.css",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/bootstrap/views/layouts/guest.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/js/app.js",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/UserPostedAssetsController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/SiteController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/LoginForm.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/docs/nice.todo",
+		"/Applications/AMPPS/www/2015/putforshare-app/docs/todo.md",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/WishesController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/readme.md",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/WishlistAssetsController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/PartnersTblController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/bootstrap/views/layouts/column2.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/robots.txt",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/userPostedAssets/_form.php",
+		"/Applications/AMPPS/www/2015/conference/tech-notes/Scores.md",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/userPostedAssets/admin.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/notes/design-todo.md",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/userPostedAssets/_listallview.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/notes/nice.todo",
+		"/Applications/AMPPS/www/2015/putforshare-app/notes/code-todo.todo",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/bootstrap/css/overrides.css",
+		"/Applications/AMPPS/www/2015/career-module/.gitignore",
+		"/Applications/AMPPS/mysql/etc/my.cnf",
+		"/Applications/AMPPS/phpMyAdmin/config.inc.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/.gitattributes",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/userPostedAssets/_myofferings.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/gii/bootstrap/templates/default/index.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/userPostedAssets/listallview.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/_form.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/UserController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/wishlistAssets/_mywishlist.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/wishlistAssets/_view.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/UserPostedAssets.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/wishlistAssets/mywishlist.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/WishlistAssets.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/wishlistAssets/_form.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/User.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/widgets/TbButton.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/form/TbFormButtonElement.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/components/ApplicationBehavior.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/wishes/received.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/Tag.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/TagController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/PartnersItemRegistrationMappingController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/framework/yii.php",
+		"/Applications/AMPPS/www/2015/nirmanu/fe-works/brows-all.html",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/bootstrap/views/site/index.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/test-suite/test-suite.md",
+		"/Applications/AMPPS/www/2015/putforshare-app/framework/YiiBase.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/layouts/main.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/MapGroupController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/site/pages/about.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/site/contact.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/bootstrap/views/site/contact.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/themes/template-mock/about.htm",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/layouts/usertemplate.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/layouts/guest.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/layouts/column1.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/layouts/column2.php",
+		"/Applications/AMPPS/apache/conf/httpd.conf",
+		"/Applications/AMPPS/www/2015/putforshare-app/framework/web/CUrlManager.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/_viewbyid.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/viewbyid.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/profile.php",
+		"/Applications/AMPPS/www/2015/nirmanu/navbar.html",
+		"/Applications/AMPPS/www/2015/nirmanu/nav.htm",
+		"/Applications/AMPPS/www/2015/apacheinfo/apacheinfo.php",
+		"/Applications/AMPPS/www/2015/apacheinfo/readme.md",
+		"/Applications/AMPPS/www/2015/putforshare-app/default.gitattributes",
+		"/Applications/AMPPS/www/2015/nirmanu/fe-works/default.gitattributes",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/components/UserIdentity.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/assets/css/bootstrap-responsive.min.css",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/assets/css/bootstrap.css",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/assets/css/bootstrap-responsive.css",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/NotificationsController.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/components/Bootstrap.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/framework/validators/test.js",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/update.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/signup.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/changepassword.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/framework/validators/CFileValidator.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/assets/css/yii.css",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/theme/views/layouts/main.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/assets/e3ecaab1/css/yii.css",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/userPostedAssets/create.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/userPostedAssets/update.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/userPostedAssets/myofferings.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/sql/changes.sql",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/PartnersTbl.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/wishes/_form.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/Tagged.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/.gitignore",
+		"/Applications/AMPPS/www/2015/putforshare-app/css/selectizecss/selectize.css",
+		"/Applications/AMPPS/www/2015/putforshare-app/js/selectizejs/standalone/selectize.js",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/PartnersItemRegistrationMapping.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/site/pages/privacyPolicy.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/framework/logging/CLogger.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/js/selectizejs/selectize.js",
+		"/Applications/AMPPS/www/2015/putforshare-app/js/selectizejs/selectize.min.js",
+		"/Applications/AMPPS/www/2015/putforshare-app/js/selectize.js",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/_search.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/partnersTbl/list.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/user/admin.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/config/main-sha.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/site/pages/guidelines.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/partnersTbl/_search.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/partnersTbl/_listsearch.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/partnersTbl/_list.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/extensions/bootstrap/widgets/TbPager.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/Wishes.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/framework/web/CPagination.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/models/MapGroup.php",
+		"/Applications/AMPPS/www/2015/test.php",
+		"/Applications/AMPPS/php-5.3/etc/php.ini",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/views/mapGroup/view.php",
+		"/Applications/AMPPS/www/2015/putforshare-app/protected/controllers/GroupController.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/AMPPS/www/2015/putforshare-app/protected",
+			"/Applications/AMPPS/www/2015/putforshare-app/",
+			"/Applications/AMPPS/www/2015/putforshare-app/protected",
+			"/Applications/AMPPS/www/2015/putforshare-app/",
+			"/Applications/AMPPS/www/2015/putforshare-app/protected/",
+			"/Applications/AMPPS/www/2015/putforshare-app/",
+			"/Applications/AMPPS/www/2015/putforshare-app/protected/",
+			"/Applications/AMPPS/www/2015/putforshare-app/",
+			"/Applications/AMPPS/www/2015/putforshare-app/protected/",
+			"/Applications/AMPPS/www/2015/putforshare-app/sql/",
+			"/Applications/AMPPS/www/2015/putforshare-app/protected",
+			"/Applications/AMPPS/www/2015/putforshare-app",
+			"/Applications/AMPPS/www/2015/travelwapi/travel/",
+			"/Applications/AMPPS/www/2015/travelwapi",
+			"/Applications/AMPPS/www/2015/assignments/senthurv2",
+			"/Applications/AMPPS/www/2015/travelwapi/travel/",
+			"/Applications/AMPPS/www/2015/travelwapi/travel/,/Applications/AMPPS/www/2015/travelwapi/travel/applicati",
+			"/Applications/AMPPS/www/2015/travelwapi/travel/,/Applications/AMPPS/www/2015/travelwapi/travel/system",
+			"/Applications/AMPPS/www/2015/travelwapi/travel/",
+			"/Applications/AMPPS/www/2015/travelwapi/api/application",
+			"/Applications/AMPPS/www/2015/travelwapi/api/",
+			"/Applications/AMPPS/www/2015/travelwapi/api/application",
+			"MYISAM",
+			"/Applications/AMPPS/www/2015/travel/application",
+			"/Applications/AMPPS/www/2014-a/pricely-qa-final",
+			"/Applications/AMPPS/www/2014-a/weown-redesign-qa/proj/protected",
+			"/Applications/AMPPS/www/2014-a/weown-redesign-qa/proj",
+			"/Applications/AMPPS/www/2014-a/weown-redesign-qa/proj,/Applications/AMPPS/www/2014-a/weown-redesign-qa/framework",
+			"/Applications/AMPPS/www/2014-a/weown-redesign-qa/proj",
+			"/Applications/AMPPS/www/2014-a/weown-redesign-qa",
+			"/Applications/AMPPS/www/2014-a/weown-redesign/proj",
+			"/Applications/AMPPS/www/2014-a/pricely-qa",
+			"/Applications/MAMP/htdocs/2014/weown_newprod",
+			"/Applications/MAMP/htdocs/2014/weown-redesign",
+			"/Applications/MAMP/htdocs/2014/weown_newprod",
+			"<open folders>",
+			"/Applications/MAMP/htdocs/2014/pricely-qa",
+			"/Applications/MAMP/htdocs/gappstudio-proj/adanpradan/nu/",
+			"/Applications/MAMP/htdocs/gappstudio-proj/adanpradan/nu/admin/reports",
+			"/Applications/MAMP/htdocs/gappstudio-proj/,/Applications/MAMP/htdocs/gappstudio-proj/adanpradan/nu/admin/reports",
+			"/Applications/MAMP/htdocs/gappstudio-proj/bavish",
+			"/Applications/MAMP/htdocs/gappstudio-proj/",
+			"/Applications/MAMP/htdocs/gappstudio-proj/hogolo-prod",
+			"/Applications/MAMP/htdocs/svx"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"theme",
+			":hover",
+			".hover",
+			"fix",
+			"clearfix",
+			"tblistview",
+			"update",
+			"createUrl",
+			"setflash",
+			"actiondelete",
+			"urlmanager",
+			"::Model()",
+			"Model()",
+			"model()",
+			"delete",
+			"Yii::app()->user",
+			"Yii::app()",
+			"Yii::app()->user",
+			"rewrite",
+			"log",
+			"rewrite",
+			"*",
+			"error",
+			"profile",
+			"model",
+			"user_email",
+			"viewbyid",
+			"actionview",
+			"//",
+			"setflash",
+			"getstate",
+			"mixins.less",
+			"myofferings",
+			"actionmyofferings",
+			"actionlistall",
+			"drop_points",
+			"img_1",
+			"loginRequired",
+			"category",
+			"log",
+			"setState",
+			"app()->user->setState",
+			"actioncreate",
+			"positiondropdown",
+			"this.",
+			"bootstrap",
+			"yii.css",
+			"jquery",
+			".css",
+			"field_label",
+			"labelfield",
+			"dropdown.css",
+			"meetneps@gmail.com",
+			"#",
+			"listallview",
+			"actionlistall",
+			"listallview",
+			"tbpager",
+			"bootstrap pager",
+			"pager",
+			"log",
+			"preload",
+			"bootstrap",
+			"mixins.less",
+			"bootstrap",
+			"actionlistallview",
+			"listallview",
+			"exit",
+			"validate",
+			"save",
+			"partner_id_arr_tbl",
+			"error_log",
+			"partners_id_arr",
+			"scalar",
+			"partners_arr",
+			"mysql",
+			"build_query",
+			"phppdo",
+			"execute",
+			"with",
+			"listallview",
+			"CDbCriteria",
+			"gii",
+			"search",
+			"Search A String",
+			"textfield",
+			"update",
+			"actionupdate",
+			"small_name",
+			"/images/",
+			"			$",
+			"url",
+			"setflash",
+			"CUploadedFile",
+			" Its size cannot exceed",
+			"history",
+			"model()::",
+			"actionlistallview",
+			"status",
+			"actiondelete",
+			"This website is for people to help each other mostly the people of haves and have-nots.",
+			"incondition",
+			"inconditiond",
+			"in",
+			"viewreceived",
+			"loadmodel",
+			"contact",
+			"layout",
+			"$layout",
+			"row",
+			"username",
+			"actionlogin",
+			"game",
+			"dvd",
+			"theme",
+			"highlights",
+			"wish",
+			"pricely",
+			"list",
+			"myofferings",
+			"images",
+			"actioncreate",
+			"pickup",
+			"class",
+			"faq-question",
+			"faq-container",
+			"demistified",
+			"init"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" ",
+			"",
+			"drop_pts",
+			"-",
+			"--",
+			"model->mini_thumb_img",
+			"/images/useruploads/",
+			"useremail",
+			"FCPATH",
+			"base_url + \"",
+			"base_url +",
+			"base_url + \"",
+			"base_url",
+			"base_url + \"",
+			"MYISAM",
+			"\\n",
+			";\\n",
+			",\\n",
+			"response['resultset']",
+			"\"",
+			"",
+			"/></a>",
+			"area",
+			"    private function areaCondition($min_area, $max_price){\n    	$proj_id_arr = array();\n	    #pricing criteria to filter bhk and pricings\n	    $pricing_criteria = new CDbCriteria();\n	    $pricing_criteria->select = \"*\";\n\n	    if (!empty($min_price)){\n	        $pricing_criteria->addCondition('price >= \"' . $min_price . '\"', ' AND ');\n	    }\n	    if (!empty($max_price)){\n	        $pricing_criteria->addCondition('price <= \"' . $max_price . '\"', ' AND ');\n	    }\n\n	    // Raise Error\n	    if( $min_price > $max_price ){\n\n	    }\n	    $proj_id_arr = CHtml::listData(ProjectPricingTbl::model()->findAll($pricing_criteria),'id','proj_id');\n\n    	return $proj_id_arr;\n    }",
+			"    private function areaCondition($min_area, $max_price){\n    	$proj_id_arr = array();\n	    #pricing criteria to filter bhk and pricings\n	    $pricing_criteria = new CDbCriteria();\n	    $pricing_criteria->select = \"*\";\n\n	    if (!empty($min_price)){\n	        $pricing_criteria->addCondition('price >= \"' . $min_price . '\"', ' AND ');\n	    }\n	    if (!empty($max_price)){\n	        $pricing_criteria->addCondition('price <= \"' . $max_price . '\"', ' AND ');\n	    }\n\n	    // Raise Error\n	    if( $min_price > $max_price ){\n\n	    }\n	    $proj_id_arr = CHtml::listData(ProjectPricingTbl::model()->findAll($pricing_criteria),'id','proj_id');\n\n    	return $proj_id_arr;\n    } ",
+			"",
+			"</a></br>",
+			"<br></a>",
+			"<br>",
+			"$pdf->",
+			"//console",
+			"req_trans_req",
+			"Right partners Right price",
+			"Hogolo",
+			"lang_rows",
+			"Oops",
+			"Should be a number"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/AMPPS/www/2015/pes/functions/function_ex_1.php",
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								368
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/AMPPS/www/2015/pes/functions/recursive.php",
+					"settings":
+					{
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/AMPPS/www/2015/pes/functions/passby_value.php",
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mkdocs.yml",
+					"settings":
+					{
+						"buffer_size": 641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "docs/unit-3/u3-echo.md",
+					"settings":
+					{
+						"buffer_size": 3759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2582,
+								2582
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2007.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/AMPPS/www/2015/pes/fun/header/one.php",
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/AMPPS/www/2015/pes/fun/header/two.php",
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Applications/AMPPS/www/2015/pes/fun/header/three.php",
+					"settings":
+					{
+						"buffer_size": 38,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "docs/unit-3/constants.md",
+					"settings":
+					{
+						"buffer_size": 956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "docs/unit-5/class.md",
+					"settings":
+					{
+						"buffer_size": 799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Applications/AMPPS/www/2015/pes/functions/default_arguments.php",
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								421
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "docs/unit-4/functions.md",
+					"settings":
+					{
+						"buffer_size": 2446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 47.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"display",
+				"pes/display_cont.php"
+			],
+			[
+				"displ",
+				"pes/display_cont.php"
+			],
+			[
+				"const",
+				"PES/docs/unit-3/constants.md"
+			],
+			[
+				"custom",
+				"themes/bootstrap/css/custom.css"
+			],
+			[
+				"code",
+				"notes/code-todo.md"
+			],
+			[
+				"protectedconfigmain",
+				"protected/config/main.php"
+			],
+			[
+				"custom.css",
+				"themes/bootstrap/css/custom.css"
+			],
+			[
+				"app.",
+				"js/app.js"
+			],
+			[
+				"overr",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"configmain",
+				"protected/config/main.php"
+			],
+			[
+				"modelwishle",
+				"protected/models/WishlistAssets.php"
+			],
+			[
+				"controllerwishlist",
+				"protected/controllers/WishlistAssetsController.php"
+			],
+			[
+				"over",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"app",
+				"js/app.js"
+			],
+			[
+				"usercontroller",
+				"protected/controllers/UserController.php"
+			],
+			[
+				"controlleruserposted",
+				"protected/controllers/UserPostedAssetsController.php"
+			],
+			[
+				"curlmana",
+				"framework/web/CUrlManager.php"
+			],
+			[
+				"validatortest.",
+				"framework/validators/test.js"
+			],
+			[
+				"extensioncomponen",
+				"protected/extensions/bootstrap/components/Bootstrap.php"
+			],
+			[
+				"modeluserposted",
+				"protected/models/UserPostedAssets.php"
+			],
+			[
+				"application",
+				"protected/components/ApplicationBehavior.php"
+			],
+			[
+				"controlleruser",
+				"protected/controllers/UserController.php"
+			],
+			[
+				"sitecontroller",
+				"protected/controllers/SiteController.php"
+			],
+			[
+				"frameworkcfilevali",
+				"framework/validators/CFileValidator.php"
+			],
+			[
+				"changes",
+				"sql/changes.sql"
+			],
+			[
+				"view_myo",
+				"protected/views/userPostedAssets/_myofferings.php"
+			],
+			[
+				"cfilevalidat",
+				"framework/validators/CFileValidator.php"
+			],
+			[
+				"tbbutt",
+				"protected/extensions/bootstrap/widgets/TbButton.php"
+			],
+			[
+				"userposted",
+				"protected/controllers/UserPostedAssetsController.php"
+			],
+			[
+				"modelpartners",
+				"protected/models/PartnersTbl.php"
+			],
+			[
+				"partnerstblcont",
+				"protected/controllers/PartnersTblController.php"
+			],
+			[
+				"bootstrapthememain",
+				"protected/extensions/bootstrap/theme/views/layouts/main.php"
+			],
+			[
+				"codeto",
+				"notes/code-todo.md"
+			],
+			[
+				"viewuserpostedass",
+				"protected/views/userPostedAssets/_myofferings.php"
+			],
+			[
+				"viewpagesgui",
+				"protected/views/site/pages/guidelines.php"
+			],
+			[
+				"bootstrapoverrid",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"wishlistco",
+				"protected/controllers/WishlistAssetsController.php"
+			],
+			[
+				"wishescontroller",
+				"protected/controllers/WishesController.php"
+			],
+			[
+				"controllerusercontrolle",
+				"protected/controllers/UserController.php"
+			],
+			[
+				"changesl",
+				"sql/changes.sql"
+			],
+			[
+				"viewuserposted",
+				"protected/views/userPostedAssets/listallview.php"
+			],
+			[
+				"tbbutton",
+				"protected/extensions/bootstrap/widgets/TbButton.php"
+			],
+			[
+				"userpostedass",
+				"protected/controllers/UserPostedAssetsController.php"
+			],
+			[
+				"override",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"changess",
+				"sql/changes.sql"
+			],
+			[
+				"notes",
+				"notes/code-todo.md"
+			],
+			[
+				"cpagination",
+				"framework/web/CPagination.php"
+			],
+			[
+				"change",
+				"sql/changes.sql"
+			],
+			[
+				"sqlchanges",
+				"sql/changes.sql"
+			],
+			[
+				"bootrapoverri",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"bootstrap.php",
+				"protected/extensions/bootstrap/components/Bootstrap.php"
+			],
+			[
+				"bootstrapoverri",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"thememain",
+				"themes/bootstrap/views/layouts/main.php"
+			],
+			[
+				"app.js",
+				"js/app.js"
+			],
+			[
+				"userposte",
+				"protected/controllers/UserPostedAssetsController.php"
+			],
+			[
+				"datetimep",
+				"framework/utils/CDateTimeParser.php"
+			],
+			[
+				"controlleruserpost",
+				"protected/controllers/UserPostedAssetsController.php"
+			],
+			[
+				"cdatetimep",
+				"framework/utils/CDateTimeParser.php"
+			],
+			[
+				"cdateform",
+				"framework/i18n/CDateFormatter.php"
+			],
+			[
+				"runtime",
+				"protected/runtime/application.log"
+			],
+			[
+				"usercontroll",
+				"protected/controllers/UserController.php"
+			],
+			[
+				"bootstrapover",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"bootstrapoverr",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"themeover",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"renderp",
+				"framework/web/renderers/CViewRenderer.php"
+			],
+			[
+				"viewusersignup",
+				"protected/views/user/signup.php"
+			],
+			[
+				"o",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"loginform",
+				"protected/models/LoginForm.php"
+			],
+			[
+				"viewsitelogin",
+				"themes/bootstrap/views/site/login.php"
+			],
+			[
+				"browse",
+				"protected/views/browseall.htm"
+			],
+			[
+				"viewuserpostedlis",
+				"protected/views/userPostedAssets/listallview.php"
+			],
+			[
+				"themelayoutmain",
+				"themes/bootstrap/views/layouts/main.php"
+			],
+			[
+				"overri",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"readme",
+				"readme.md"
+			],
+			[
+				"viewpart",
+				"protected/views/partnersTbl/index.php"
+			],
+			[
+				"controllerpartl",
+				"protected/controllers/PartnersTblController.php"
+			],
+			[
+				"cbasepager",
+				"framework/web/widgets/pagers/CBasePager.php"
+			],
+			[
+				"clinkpager",
+				"framework/web/widgets/pagers/CLinkPager.php"
+			],
+			[
+				"viewmyo",
+				"protected/views/userPostedAssets/myofferings.php"
+			],
+			[
+				"controlleruserpo",
+				"protected/controllers/UserPostedAssetsController.php"
+			],
+			[
+				"overrid",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"main.css",
+				"css/main.css"
+			],
+			[
+				"branch",
+				"docs/branch.md"
+			],
+			[
+				"claim",
+				"travel/application/controllers/claimmechanic.php"
+			],
+			[
+				"mechani",
+				"travel/application/models/mechanic_model.php"
+			],
+			[
+				"messengermodel",
+				"travel/application/models/messengermodel.php"
+			],
+			[
+				"mechanic",
+				"travel/application/models/mechanic_model.php"
+			],
+			[
+				"travel_request.js",
+				"travel/external_scripts/js/editable-table/travel_request.js"
+			],
+			[
+				"viewedit",
+				"travel/application/views/admin/travel_requests/for_all/edit_travel_request.php"
+			],
+			[
+				"get",
+				"travel/application/models/get_details.php"
+			],
+			[
+				"dash_",
+				"travel/application/models/dash_model.php"
+			],
+			[
+				"config",
+				"travel/application/config/config.php"
+			],
+			[
+				"account",
+				"travel/application/controllers/account_settings.php"
+			],
+			[
+				"modelget",
+				"travel/application/models/get_details.php"
+			],
+			[
+				"modelload",
+				"travel/application/models/database_loader.php"
+			],
+			[
+				"essrequest",
+				"travel/application/models/essrequestmodel.php"
+			],
+			[
+				"essreque",
+				"travel/application/models/essrequestmodel.php"
+			],
+			[
+				"login_model",
+				"travel/application/models/login_model.php"
+			],
+			[
+				"travellogin_mo",
+				"travel/application/models/login_model.php"
+			],
+			[
+				"controllertrave",
+				"application/controllers/travel_requests.php"
+			],
+			[
+				"viewedit_travel",
+				"application/views/admin/travel_requests/for_all/edit_travel_request.php"
+			],
+			[
+				"getdetail",
+				"travel/application/models/get_details.php"
+			],
+			[
+				"essre",
+				"travel/application/models/essrequestmodel.php"
+			],
+			[
+				"essrequestmodel",
+				"travel/application/models/essrequestmodel.php"
+			],
+			[
+				"models/claimmechanic_model.php",
+				"application/models/claimmechanic_model.php"
+			],
+			[
+				"modelmechanic",
+				"application/models/mechanic_model.php"
+			],
+			[
+				"viewtravel_requestedit",
+				"application/views/admin/travel_requests/for_all/edit_requests.php"
+			],
+			[
+				"viewtravel",
+				"application/views/admin/travel_requests/for_all/view_travel_request.php"
+			],
+			[
+				"view",
+				"application/views/admin/travel_requests/for_all/view_travel_request.php"
+			],
+			[
+				"database_loader",
+				"travel/application/models/database_loader.php"
+			],
+			[
+				"auth",
+				"api/application/config/autoload.php"
+			],
+			[
+				"ses",
+				"system/libraries/Session.php"
+			],
+			[
+				"session",
+				"system/libraries/Session.php"
+			],
+			[
+				"encryp",
+				"system/libraries/Encrypt.php"
+			],
+			[
+				"pageguide",
+				"protected/views/site/pages/guidelines.php"
+			],
+			[
+				"viewsignup",
+				"protected/views/user/signup.php"
+			],
+			[
+				"usercontro",
+				"protected/controllers/UserController.php"
+			],
+			[
+				"themesover",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"themebootstra",
+				"themes/bootstrap/css/overrides.css"
+			],
+			[
+				"ccontroller",
+				"framework/web/CController.php"
+			],
+			[
+				"views/amenitiestbl/_form.php",
+				"proj/protected/views/amenitiesTbl/_form.php"
+			],
+			[
+				"vieweasysearch",
+				"proj/protected/views/projectTbl/easysearch2.php"
+			],
+			[
+				"controlleram",
+				"proj/protected/controllers/AmenitiesTblController.php"
+			],
+			[
+				"viewprojectblview",
+				"proj/protected/views/projectTbl/view.php"
+			],
+			[
+				"pager.css",
+				"framework/web/widgets/pagers/pager.css"
+			],
+			[
+				"viewsellertbllist",
+				"proj/protected/views/sellerTbl/list.php"
+			],
+			[
+				"pager",
+				"framework/web/widgets/pagers/pager.css"
+			],
+			[
+				"viewseller",
+				"proj/protected/views/sellerTbl/list.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 397.0,
+	"status_bar_visible": true
+}
