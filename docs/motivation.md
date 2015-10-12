@@ -6,6 +6,7 @@
 ![](images/amit-singhal.jpg)
 ----
 ## Rasmus Lerdorf, Creator of PHP
+1. Created PHP as an alternative way to rewrite scripts over and over for his web development jobs during early 90s and to track visits for his online resume.
 ![](images/rasmus.jpg)
 ----
 ## Tim Berners Lee. Creator of Hypertext Markup Language when he was working for CERN.
