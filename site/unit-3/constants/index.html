@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Arrays in PHP - Web Development Using PHP, CakePHP</title>
+  <title>Constants - Web Development Using PHP, CakePHP</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -96,37 +96,27 @@
 
     
         
-            <li class="toctree-l1 ">
-                <a class="" href="../constants/">Constants</a>
+            <li class="toctree-l1 current">
+                <a class="current" href="./">Constants</a>
+                
+                    <ul>
+                    
+                        <li class="toctree-l3"><a href="#constants-in-php">Constants in PHP</a></li>
+                        
+                            <li><a class="toctree-l4" href="#user-defined-constants">User Defined Constants</a></li>
+                        
+                            <li><a class="toctree-l4" href="#magic-constants">Magic Constants</a></li>
+                        
+                    
+                    </ul>
                 
             </li>
         
 
     
         
-            <li class="toctree-l1 current">
-                <a class="current" href="./">Arrays in PHP</a>
-                
-                    <ul>
-                    
-                        <li class="toctree-l3"><a href="#arrays-in-php">Arrays in PHP</a></li>
-                        
-                            <li><a class="toctree-l4" href="#example-of-array">Example of Array</a></li>
-                        
-                            <li><a class="toctree-l4" href="#as-of-php-54">as of PHP 5.4</a></li>
-                        
-                            <li><a class="toctree-l4" href="#is-this-valid">is this valid ?</a></li>
-                        
-                            <li><a class="toctree-l4" href="#indexed-array">Indexed array</a></li>
-                        
-                            <li><a class="toctree-l4" href="#multidimensional-array">MultiDimensional array</a></li>
-                        
-                            <li><a class="toctree-l4" href="#array-dereferencing">Array dereferencing</a></li>
-                        
-                            <li><a class="toctree-l4" href="#array-functions">Array Functions</a></li>
-                        
-                    
-                    </ul>
+            <li class="toctree-l1 ">
+                <a class="" href="../arrays/">Arrays in PHP</a>
                 
             </li>
         
@@ -201,7 +191,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../..">Docs</a> &raquo;</li>
     
-    <li>Arrays in PHP</li>
+    <li>Constants</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -210,91 +200,65 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="arrays-in-php">Arrays in PHP</h1>
-<p>An array in PHP is actually an ordered map. A map is a type that associates values to keys. This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map).</p>
-<h3 id="example-of-array">Example of Array</h3>
-<pre><code>&lt;?php
-$array = array(
-    &quot;foo&quot; =&gt; &quot;bar&quot;,
-    &quot;bar&quot; =&gt; &quot;foo&quot;,
-);
+              <h1 id="constants-in-php">Constants in PHP</h1>
+<h2 id="user-defined-constants">User Defined Constants</h2>
+<pre><code>define('LABEL', 'Actual Value')
 </code></pre>
 
-<h3 id="as-of-php-54">as of PHP 5.4</h3>
-<pre><code>// as of PHP 5.4
-$array = [
-    &quot;foo&quot; =&gt; &quot;bar&quot;,
-    &quot;bar&quot; =&gt; &quot;foo&quot;,
-];
-?&gt;
-</code></pre>
-
-<p>The key can either be an integer or a string. The value can be of any type.</p>
-<h3 id="is-this-valid">is this valid ?</h3>
-<pre><code>$array = array(
-    &quot;foo&quot; =&gt; &quot;bar&quot;,
-    &quot;bar&quot; =&gt; &quot;foo&quot;,
-    100   =&gt; -100,
-    -100  =&gt; 100,
-);
-</code></pre>
-
-<h3 id="indexed-array">Indexed array</h3>
-<pre><code>&lt;?php
-$array = array(&quot;foo&quot;, &quot;bar&quot;, &quot;hello&quot;, &quot;world&quot;);
-var_dump($array);
-?&gt;
-</code></pre>
-
-<h3 id="multidimensional-array">MultiDimensional array</h3>
-<pre><code>&lt;?php
-$array = array(
-    &quot;foo&quot; =&gt; &quot;bar&quot;,
-    42    =&gt; 24,
-    &quot;multi&quot; =&gt; array(
-         &quot;dimensional&quot; =&gt; array(
-             &quot;array&quot; =&gt; &quot;foo&quot;
-         )
-    )
-);
-
-var_dump($array[&quot;foo&quot;]);
-var_dump($array[42]);
-var_dump($array[&quot;multi&quot;][&quot;dimensional&quot;][&quot;array&quot;]);
-?&gt;
-</code></pre>
-
-<h3 id="array-dereferencing">Array dereferencing</h3>
-<pre><code>&lt;?php
-function getArray() {
-    return array(1, 2, 3);
-}
-
-// on PHP 5.4
-$secondElement = getArray()[1];
-
-// previously
-$tmp = getArray();
-$secondElement = $tmp[1];
-
-// or
-list(, $secondElement) = getArray();
-?&gt;
-</code></pre>
-
-<h2 id="array-functions">Array Functions</h2>
-<p><a href="http://php.net/manual/en/ref.array.php">http://php.net/manual/en/ref.array.php</a></p>
-<p>bool in_array ( mixed $needle , array $haystack [, bool $strict = FALSE ] )</p>
+<h2 id="magic-constants">Magic Constants</h2>
+<table>
+<thead>
+<tr>
+<th>Const</th>
+<th align="center">The magic it has</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>__LINE__</code></td>
+<td align="center">The current line number of the file.</td>
+</tr>
+<tr>
+<td><code>__FILE__</code></td>
+<td align="center">The full path and filename of the file with symlinks resolved</td>
+</tr>
+<tr>
+<td><code>__DIR__</code></td>
+<td align="center">The directory of the file. equivalent to <code>dirname(__FILE__)</code>.</td>
+</tr>
+<tr>
+<td><code>__FUNCTION__</code></td>
+<td align="center">The function name.</td>
+</tr>
+<tr>
+<td><code>__CLASS__</code></td>
+<td align="center">The class name. The class name includes the namespace it was declared in (e.g. Foo\Bar).</td>
+</tr>
+<tr>
+<td><code>__TRAIT__</code></td>
+<td align="center">The trait name. The trait name includes the namespace it was declared in (e.g. Foo\Bar).</td>
+</tr>
+<tr>
+<td><code>__METHOD__</code></td>
+<td align="center">The class method name.</td>
+</tr>
+<tr>
+<td><code>__NAMESPACE__</code></td>
+<td align="center">The name of the current namespace.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong> :This directory name does not have a trailing slash unless it is the root directory. </p>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../u3-handson/" class="btn btn-neutral float-right" title="Lets Do something"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../arrays/" class="btn btn-neutral float-right" title="Arrays in PHP"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../constants/" class="btn btn-neutral" title="Constants"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../data-types/" class="btn btn-neutral" title="Data Types"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -320,14 +284,14 @@ list(, $secondElement) = getArray();
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../constants/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../u3-handson/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../data-types/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../arrays/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-14 04:15:56.981658
+Docs Build Date : 2015-10-14 04:15:56.974874
 -->
 </body>
 </html>

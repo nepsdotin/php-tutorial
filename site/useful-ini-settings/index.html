@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>References - Web Development Using PHP, CakePHP</title>
+  <title>Useful ini Settings - Web Development Using PHP, CakePHP</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -136,8 +136,21 @@
 
     
         
-            <li class="toctree-l1 ">
-                <a class="" href="../useful-ini-settings/">Useful ini Settings</a>
+            <li class="toctree-l1 current">
+                <a class="current" href="./">Useful ini Settings</a>
+                
+                    <ul>
+                    
+                        <li class="toctree-l3"><a href="#useful-ini-settings">Useful ini Settings</a></li>
+                        
+                            <li><a class="toctree-l4" href="#1-display_errors">1. display_errors</a></li>
+                        
+                            <li><a class="toctree-l4" href="#2-log_errors">2. log_errors</a></li>
+                        
+                            <li><a class="toctree-l4" href="#3-error_log">3. error_log</a></li>
+                        
+                    
+                    </ul>
                 
             </li>
         
@@ -152,17 +165,8 @@
 
     
         
-            <li class="toctree-l1 current">
-                <a class="current" href="./">References</a>
-                
-                    <ul>
-                    
-                        <li class="toctree-l3"><a href="#references">References</a></li>
-                        
-                            <li><a class="toctree-l4" href="#documentation">Documentation</a></li>
-                        
-                    
-                    </ul>
+            <li class="toctree-l1 ">
+                <a class="" href="../refe/">References</a>
                 
             </li>
         
@@ -189,7 +193,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="..">Docs</a> &raquo;</li>
     
-    <li>References</li>
+    <li>Useful ini Settings</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -198,21 +202,40 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="references">References</h1>
-<h2 id="documentation">Documentation</h2>
-<p><a href="http://php.net/docs.php">http://php.net/docs.php</a></p>
-<p><a href="http://www.php-fig.org/psr/psr-1/">PSR 1 Coding Guidelines To be followed in PHP</a></p>
-<p><a href="http://www.php-fig.org/psr/psr-2/">PSR 2 Coding Guidelines To be followed in PHP</a></p>
-<p><a href="http://php.net/manual/en/features.commandline.interactive.php">http://php.net/manual/en/features.commandline.interactive.php</a></p>
-<p><a href="http://php.net/manual/en/features.commandline.php">http://php.net/manual/en/features.commandline.php</a></p>
+              <h1 id="useful-ini-settings">Useful ini Settings</h1>
+<p>All PHP Configurations are Stored in a file called <code>php.ini</code></p>
+<p>The configuration file (php.ini) is read when PHP starts up. For the server module versions of PHP, this happens only once when the web server is started. For the CGI and CLI versions, it happens on every invocation.</p>
+<h2 id="1-display_errors">1. display_errors</h2>
+<p><code>display_errors = boolean</code></p>
+<p>This determines whether errors should be printed to the screen as part of the output or if they should be hidden from the user.</p>
+<p>Eg.: To enable <code>display_errors</code> we can use one of the following.</p>
+<ol>
+<li><code>display_errors = On</code> </li>
+<li><code>display_errors = true</code></li>
+<li><code>display_errors = 1</code> </li>
+</ol>
+<p><strong>Note:</strong> This is a feature to support your development and should never be used on production systems.</p>
+<h2 id="2-log_errors">2. log_errors</h2>
+<p><code>log_errors = boolean</code></p>
+<p>Tells whether script error messages should be logged to the error_log</p>
+<h2 id="3-error_log">3. error_log</h2>
+<p><code>error_log = string</code></p>
+<p>Name of the file where script errors should be logged. The file should be writable by the web server's user. </p>
+<p>Eg. <code>error_log = '/var/log/php_errors.log'</code></p>
+<p>To view error log <code>less /var/log/php_errors.log</code></p>
+<p>To do live debugging </p>
+<p><code>tail -f /var/log/php_errors.log</code> To stop <code>Cntrl + C</code></p>
+<p><code>-f</code> Option keeps reading for the upcoming inputs. Hence you will see the error as it pops on the <code>php_errors.log</code></p>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../further-readings/" class="btn btn-neutral float-right" title="Further Readings on PHP"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../further-readings/" class="btn btn-neutral" title="Further Readings on PHP"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href="../unit-4/functions/" class="btn btn-neutral" title="Functions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -238,14 +261,14 @@
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../further-readings/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../unit-4/functions/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../further-readings/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-14 04:15:57.033793
+Docs Build Date : 2015-10-14 04:15:57.014495
 -->
 </body>
 </html>

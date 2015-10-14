@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Arrays in PHP - Web Development Using PHP, CakePHP</title>
+  <title>Lets Do something - Web Development Using PHP, CakePHP</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -104,37 +104,27 @@
 
     
         
-            <li class="toctree-l1 current">
-                <a class="current" href="./">Arrays in PHP</a>
-                
-                    <ul>
-                    
-                        <li class="toctree-l3"><a href="#arrays-in-php">Arrays in PHP</a></li>
-                        
-                            <li><a class="toctree-l4" href="#example-of-array">Example of Array</a></li>
-                        
-                            <li><a class="toctree-l4" href="#as-of-php-54">as of PHP 5.4</a></li>
-                        
-                            <li><a class="toctree-l4" href="#is-this-valid">is this valid ?</a></li>
-                        
-                            <li><a class="toctree-l4" href="#indexed-array">Indexed array</a></li>
-                        
-                            <li><a class="toctree-l4" href="#multidimensional-array">MultiDimensional array</a></li>
-                        
-                            <li><a class="toctree-l4" href="#array-dereferencing">Array dereferencing</a></li>
-                        
-                            <li><a class="toctree-l4" href="#array-functions">Array Functions</a></li>
-                        
-                    
-                    </ul>
+            <li class="toctree-l1 ">
+                <a class="" href="../arrays/">Arrays in PHP</a>
                 
             </li>
         
 
     
         
-            <li class="toctree-l1 ">
-                <a class="" href="../u3-handson/">Lets Do something</a>
+            <li class="toctree-l1 current">
+                <a class="current" href="./">Lets Do something</a>
+                
+                    <ul>
+                    
+                        <li class="toctree-l3"><a href="#lets-do-something">Lets Do Something</a></li>
+                        
+                            <li><a class="toctree-l4" href="#building-first-web-page-in-php">Building First Web Page in PHP</a></li>
+                        
+                            <li><a class="toctree-l4" href="#leaderboard">Leaderboard</a></li>
+                        
+                    
+                    </ul>
                 
             </li>
         
@@ -201,7 +191,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../..">Docs</a> &raquo;</li>
     
-    <li>Arrays in PHP</li>
+    <li>Lets Do something</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -210,91 +200,83 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="arrays-in-php">Arrays in PHP</h1>
-<p>An array in PHP is actually an ordered map. A map is a type that associates values to keys. This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map).</p>
-<h3 id="example-of-array">Example of Array</h3>
-<pre><code>&lt;?php
-$array = array(
-    &quot;foo&quot; =&gt; &quot;bar&quot;,
-    &quot;bar&quot; =&gt; &quot;foo&quot;,
-);
+              <h1 id="lets-do-something">Lets Do Something</h1>
+<h3 id="building-first-web-page-in-php">Building First Web Page in PHP</h3>
+<h4 id="ways-to-create-php-scripts">Ways to Create PHP Scripts</h4>
+<ol>
+<li>
+<p>All PHP code should be place only in
+    1.1 <code>(.php, .php3, .php4, php5, .phtml)</code> typically in php file for simplicity and convention.</p>
+</li>
+<li>
+<p>In PHP file you php code should always be enclosed inside one of the tag</p>
+<ol>
+<li><code>&lt;?php ?&gt;</code>  ( Generally used ) or</li>
+<li><code>&lt;?=   ?&gt;</code>  ( Rarely used, and its called shorttags )or</li>
+<li><code>&lt;%    %&gt;</code> ( ASP Style Tag, Not generally used, need asp_tags enabled in php.ini)  </li>
+</ol>
+</li>
+</ol>
+<h5 id="note">Note</h5>
+<ol>
+<li>
+<p>Since PHP Ver. 7.0.0  The ASP tags <code>&lt;%, %&gt;, &lt;%=,</code> and the script tag 
+<code>&lt;script language="php"&gt;</code> are removed from PHP.</p>
+</li>
+<li>
+<p>Since PHP Ver 5.4.0 The tag &lt;?= is always available regardless of the short_open_tag ini setting. Prior to 5.4.0 Developer should explicitly do this setting in php.ini <code>short_open_tag = On</code></p>
+</li>
+</ol>
+<p>asdf
+asdf
+asdf</p>
+<h2 id="leaderboard">Leaderboard</h2>
+<h3 id="print-an-assoc-array-as-a-table-ascii-table">Print an ASSOC. ARRAY as a Table / ASCII Table</h3>
+<pre><code>$leaders = array(
+    array( 
+        'rank' =&gt; 1,
+        'name' =&gt; 'Raj',
+        'score' =&gt; 100,
+    ),
+    array( 
+        'rank' =&gt; 2,
+        'name' =&gt; 'Kumari',
+        'score' =&gt; 98,
+    ),
+    array( 
+        'rank' =&gt; 3,
+        'name' =&gt; 'Rangan',
+        'score' =&gt; 92,
+    ),
+    array( 
+        'rank' =&gt; 4,
+        'name' =&gt; 'Priyanka',
+        'score' =&gt; 90,
+    ),
+)
+
+Display them as a Table
++------------+-------+---------+
+| Rank       | Name  | Score   |
++------------+-------+---------+
+| 1          | Raj   | 100     |
+| 2          | Kumari| 98      |
+| 3          | Rangan| 92      |
+| 4          | Priyanka| 90    |
++------------+-------+---------+
 </code></pre>
 
-<h3 id="as-of-php-54">as of PHP 5.4</h3>
-<pre><code>// as of PHP 5.4
-$array = [
-    &quot;foo&quot; =&gt; &quot;bar&quot;,
-    &quot;bar&quot; =&gt; &quot;foo&quot;,
-];
-?&gt;
-</code></pre>
-
-<p>The key can either be an integer or a string. The value can be of any type.</p>
-<h3 id="is-this-valid">is this valid ?</h3>
-<pre><code>$array = array(
-    &quot;foo&quot; =&gt; &quot;bar&quot;,
-    &quot;bar&quot; =&gt; &quot;foo&quot;,
-    100   =&gt; -100,
-    -100  =&gt; 100,
-);
-</code></pre>
-
-<h3 id="indexed-array">Indexed array</h3>
-<pre><code>&lt;?php
-$array = array(&quot;foo&quot;, &quot;bar&quot;, &quot;hello&quot;, &quot;world&quot;);
-var_dump($array);
-?&gt;
-</code></pre>
-
-<h3 id="multidimensional-array">MultiDimensional array</h3>
-<pre><code>&lt;?php
-$array = array(
-    &quot;foo&quot; =&gt; &quot;bar&quot;,
-    42    =&gt; 24,
-    &quot;multi&quot; =&gt; array(
-         &quot;dimensional&quot; =&gt; array(
-             &quot;array&quot; =&gt; &quot;foo&quot;
-         )
-    )
-);
-
-var_dump($array[&quot;foo&quot;]);
-var_dump($array[42]);
-var_dump($array[&quot;multi&quot;][&quot;dimensional&quot;][&quot;array&quot;]);
-?&gt;
-</code></pre>
-
-<h3 id="array-dereferencing">Array dereferencing</h3>
-<pre><code>&lt;?php
-function getArray() {
-    return array(1, 2, 3);
-}
-
-// on PHP 5.4
-$secondElement = getArray()[1];
-
-// previously
-$tmp = getArray();
-$secondElement = $tmp[1];
-
-// or
-list(, $secondElement) = getArray();
-?&gt;
-</code></pre>
-
-<h2 id="array-functions">Array Functions</h2>
-<p><a href="http://php.net/manual/en/ref.array.php">http://php.net/manual/en/ref.array.php</a></p>
-<p>bool in_array ( mixed $needle , array $haystack [, bool $strict = FALSE ] )</p>
+<h3 id="_1"></h3>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../u3-handson/" class="btn btn-neutral float-right" title="Lets Do something"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../u3-echo/" class="btn btn-neutral float-right" title="Displaying content in PHP"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../constants/" class="btn btn-neutral" title="Constants"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../arrays/" class="btn btn-neutral" title="Arrays in PHP"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -320,14 +302,14 @@ list(, $secondElement) = getArray();
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../constants/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../u3-handson/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../arrays/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../u3-echo/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-14 04:15:56.981658
+Docs Build Date : 2015-10-14 04:15:56.988756
 -->
 </body>
 </html>

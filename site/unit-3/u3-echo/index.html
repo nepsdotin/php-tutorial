@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Displaying content in PHP - Web Development Using PHP, CakePHP</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Web Development Using PHP, CakePHP</a>
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+      <ul class="current">
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../..">Home</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../motivation/">Motivation</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../php-1/">PHP 1.0</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../php-installation/">Installing PHP</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../how-web-works/">How Web Works</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../how-php-works/">How PHP Works</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../data-types/">Data Types</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../constants/">Constants</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../arrays/">Arrays in PHP</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../u3-handson/">Lets Do something</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 current">
+                <a class="current" href="./">Displaying content in PHP</a>
+                
+                    <ul>
+                    
+                        <li class="toctree-l3"><a href="#displaying-content-in-php">Displaying Content in PHP</a></li>
+                        
+                            <li><a class="toctree-l4" href="#echo">Echo</a></li>
+                        
+                            <li><a class="toctree-l4" href="#print">Print</a></li>
+                        
+                            <li><a class="toctree-l4" href="#print_r">Print_r</a></li>
+                        
+                            <li><a class="toctree-l4" href="#var_dump">Var_dump</a></li>
+                        
+                            <li><a class="toctree-l4" href="#nowdoc">nowdoc</a></li>
+                        
+                            <li><a class="toctree-l4" href="#heredoc">heredoc</a></li>
+                        
+                    
+                    </ul>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-4/functions/">Functions</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../useful-ini-settings/">Useful ini Settings</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../further-readings/">Further Readings on PHP</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../refe/">References</a>
+                
+            </li>
+        
+
+    
+</ul>
+
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Web Development Using PHP, CakePHP</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+    <li>Displaying content in PHP</li>
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              <h1 id="displaying-content-in-php">Displaying Content in PHP</h1>
+<h2 id="echo">Echo</h2>
+<p><code>void echo ( string $arg1 [, string $... ] )</code> </p>
+<p>echo is not actually a function (it is a language construct), so you are not required to use parentheses with it.</p>
+<p>All the following are valid</p>
+<pre><code>&lt;?php
+echo &quot;Hello World&quot;;
+
+echo &quot;This spans
+multiple lines. The newlines will be
+output as well&quot;;
+
+echo &quot;This spans\nmultiple lines. The newlines will be\noutput as well.&quot;;
+
+echo &quot;Escaping characters is done \&quot;Like this\&quot;.&quot;;
+
+// You can use variables inside of an echo statement
+$foo = &quot;foobar&quot;;
+$bar = &quot;barbaz&quot;;
+
+echo &quot;foo is $foo&quot;; // foo is foobar
+
+// You can also use arrays
+$baz = array(&quot;value&quot; =&gt; &quot;foo&quot;);
+
+echo &quot;this is {$baz['value']} !&quot;; // this is foo !
+
+// Using single quotes will print the variable name, not the value
+echo 'foo is $foo'; // foo is $foo
+
+// If you are not using any other characters, you can just echo variables
+echo $foo;          // foobar
+echo $foo,$bar;     // foobarbarbaz
+
+// Some people prefer passing multiple parameters to echo over concatenation.
+echo 'This ', 'string ', 'was ', 'made ', 'with multiple parameters.', chr(10);
+echo 'This ' . 'string ' . 'was ' . 'made ' . 'with concatenation.' . &quot;\n&quot;;
+
+echo &lt;&lt;&lt;END
+This uses the &quot;here document&quot; syntax to output
+multiple lines with $variable interpolation. Note
+that the here document terminator must appear on a
+line with just a semicolon. no extra whitespace!
+END;
+
+// Because echo does not behave like a function, the following code is invalid.
+($some_var) ? echo 'true' : echo 'false';
+
+// However, the following examples will work:
+($some_var) ? print 'true' : print 'false'; // print is also a construct, but
+                                            // it behaves like a function, so
+                                            // it may be used in this context.
+echo $some_var ? 'true': 'false'; // changing the statement around
+?&gt;
+</code></pre>
+
+<h2 id="print">Print</h2>
+<p>print — Output a string</p>
+<pre><code>int print ( string $arg )
+</code></pre>
+
+<p>print is not actually a real function (it is a language construct) so you are not required to use parentheses with its argument list. </p>
+<h2 id="print_r">Print_r</h2>
+<p>print_r — Prints human-readable information about a variable</p>
+<pre><code>mixed print_r ( mixed $expression [, bool $return = false ] )
+</code></pre>
+
+<h5 id="expression">expression</h5>
+<p>The expression to be printed.</p>
+<h5 id="return">return</h5>
+<p>If you would like to capture the output of print_r(), use the return parameter. When this parameter is set to TRUE, print_r() will return the information rather than print it.</p>
+<h2 id="var_dump">Var_dump</h2>
+<p>Same as print_r() but display along with the data types</p>
+<pre><code>void var_dump ( mixed $expression [, mixed $... ] )
+</code></pre>
+
+<h2 id="nowdoc">nowdoc</h2>
+<h2 id="heredoc">heredoc</h2>
+<p>A third way to delimit strings is the heredoc syntax: &lt;&lt;&lt;. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation.</p>
+<p>The closing identifier must begin in the first column of the line.</p>
+<pre><code>&lt;?php
+echo &lt;&lt;&lt;HELLO
+This is a long string A third way to delimit strings is the heredoc syntax: &lt;&lt;&lt;. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation.
+HELLO
+?&gt;
+</code></pre>
+
+<h3 id="nowdoc_1">nowdoc</h3>
+<p>A nowdoc is identified with the same &lt;&lt;&lt; sequence used for heredocs, but the identifier which follows is enclosed in single quotes, e.g. &lt;&lt;&lt;'EOT'. All the rules for heredoc identifiers also apply to nowdoc identifiers, especially those regarding the appearance of the closing identifier.</p>
+<pre><code>&lt;?php
+$name = 'Rangarajan';
+
+echo &lt;&lt;&lt;'HELLO'
+Hello $name, This is a long string A third way to delimit strings is the heredoc syntax: &lt;&lt;&lt;. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation.
+HELLO
+?&gt;
+</code></pre>
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../unit-4/functions/" class="btn btn-neutral float-right" title="Functions"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../u3-handson/" class="btn btn-neutral" title="Lets Do something"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    <!-- Copyright etc -->
+    </p>
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+        
+      <span><a href="../u3-handson/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../../unit-4/functions/" style="color: #fcfcfc">Next &raquo;</a></span>
+    </span>
+</div>
+
+<!--
+MkDocs version  : 0.12.2
+Docs Build Date : 2015-10-14 04:15:56.997346
+-->
+</body>
+</html>
