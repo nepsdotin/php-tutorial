@@ -9,7 +9,7 @@
 # How PHP was cooked ?
 
 ### Rasmus Lerdorf - Proud Creator of PHP
-![](images/Rasmus_Lerdorf_August_2014_cropped.jpg)
+![](images/rasmus.jpg)
 
 1. Follow: [Rasmus](http://twitter.com/rasmus)
 2. Blog:   [https://toys.lerdorf.com/](https://toys.lerdorf.com/)
