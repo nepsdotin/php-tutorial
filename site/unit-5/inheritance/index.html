@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Constants - Web Development Using PHP, CakePHP</title>
+  <title>Inheritance - Web Development Using PHP, CakePHP</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -57,7 +57,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../php-1/">PHP 1.0</a>
+                <a class="" href="../../unit-3/php-1/">PHP 1.0</a>
                 
             </li>
         
@@ -65,7 +65,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../php-installation/">Installing PHP</a>
+                <a class="" href="../../unit-3/php-installation/">Installing PHP</a>
                 
             </li>
         
@@ -73,7 +73,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../how-web-works/">How Web Works</a>
+                <a class="" href="../../unit-3/how-web-works/">How Web Works</a>
                 
             </li>
         
@@ -81,7 +81,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../how-php-works/">How PHP Works</a>
+                <a class="" href="../../unit-3/how-php-works/">How PHP Works</a>
                 
             </li>
         
@@ -89,26 +89,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../data-types/">Data Types</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 current">
-                <a class="current" href="./">Constants</a>
-                
-                    <ul>
-                    
-                        <li class="toctree-l3"><a href="#constants-in-php">Constants in PHP</a></li>
-                        
-                            <li><a class="toctree-l4" href="#user-defined-constants">User Defined Constants</a></li>
-                        
-                            <li><a class="toctree-l4" href="#magic-constants">Magic Constants</a></li>
-                        
-                    
-                    </ul>
+                <a class="" href="../../unit-3/data-types/">Data Types</a>
                 
             </li>
         
@@ -116,7 +97,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../arrays/">Arrays in PHP</a>
+                <a class="" href="../../unit-3/constants/">Constants</a>
                 
             </li>
         
@@ -124,7 +105,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../u3-handson/">Lets Do something</a>
+                <a class="" href="../../unit-3/arrays/">Arrays in PHP</a>
                 
             </li>
         
@@ -132,7 +113,15 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../u3-echo/">Displaying content in PHP</a>
+                <a class="" href="../../unit-3/u3-handson/">Lets Do something</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-3/u3-echo/">Displaying content in PHP</a>
                 
             </li>
         
@@ -156,7 +145,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/class/">Object Oriented Programming</a>
+                <a class="" href="../class/">Object Oriented Programming</a>
                 
             </li>
         
@@ -164,7 +153,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/constructors/">Constructors & Destructors</a>
+                <a class="" href="../constructors/">Constructors & Destructors</a>
                 
             </li>
         
@@ -172,7 +161,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/visibility/">Visibility</a>
+                <a class="" href="../visibility/">Visibility</a>
                 
             </li>
         
@@ -180,15 +169,24 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/self-this/">Self & this Special Varialbles</a>
+                <a class="" href="../self-this/">Self & this Special Varialbles</a>
                 
             </li>
         
 
     
         
-            <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/inheritance/">Inheritance</a>
+            <li class="toctree-l1 current">
+                <a class="current" href="./">Inheritance</a>
+                
+                    <ul>
+                    
+                        <li class="toctree-l3"><a href="#inheritance">Inheritance</a></li>
+                        
+                            <li><a class="toctree-l4" href="#method-function-overriding">Method / Function Overriding</a></li>
+                        
+                    
+                    </ul>
                 
             </li>
         
@@ -247,7 +245,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../..">Docs</a> &raquo;</li>
     
-    <li>Constants</li>
+    <li>Inheritance</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -256,65 +254,116 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="constants-in-php">Constants in PHP</h1>
-<h2 id="user-defined-constants">User Defined Constants</h2>
-<pre><code>define('LABEL', 'Actual Value')
+              <h1 id="inheritance">Inheritance</h1>
+<ol>
+<li>A class can inherit the methods and properties of another class by using the keyword <code>extends</code> in the class declaration. </li>
+<li>It is not possible to extend multiple classes; a class can only inherit from one base class. </li>
+<li>The inherited methods and properties can be overridden by redeclaring them with the same name defined in the parent class.  However, if the parent class has defined a method as final, that method may not be overridden. It is possible to access the overridden methods or static properties by referencing them with parent::.</li>
+</ol>
+<pre><code>&lt;?php
+    class Car{
+
+        //Properties, by default its public
+        var $color = 'green';
+        // You can declare public prop. like this also
+        public  $price  = 1000000;
+
+        // Private
+        private $engine = 'blah blah';
+
+        // Protected available to Car Class, and all Sub Classes.
+        protected $no_of_wheels = 4 ;
+
+        //Methods
+        function drive(){
+
+            echo 'driving...';
+        }
+    }
+
+    class TeslaCar extends Car {
+
+        //Prop has $color, $price, $brand along with manufacturer
+        public $manufacturer = 'Elon Musk';
+
+        //Methods has drive() and selfdrive()
+        function selfdrive(){
+            echo 'Self driving is also available along with driving';
+        }
+
+    }
+
+    $car_obj = new Car;
+
+    $my_tesla = new TeslaCar();
+
+    // Inherited method is available for the Teslacar
+    $my_tesla-&gt;drive();
+
+    // Extended or new method for the Tesla Car.
+    $my_tesla-&gt;selfdrive();
+
+    // public prop
+    echo 'Color : ' . $car_obj-&gt;color;
+    echo 'Price : ' . $car_obj-&gt;price;
+
+?&gt;
 </code></pre>
 
-<h2 id="magic-constants">Magic Constants</h2>
-<table>
-<thead>
-<tr>
-<th>Const</th>
-<th align="center">The magic it has</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>__LINE__</code></td>
-<td align="center">The current line number of the file.</td>
-</tr>
-<tr>
-<td><code>__FILE__</code></td>
-<td align="center">The full path and filename of the file with symlinks resolved</td>
-</tr>
-<tr>
-<td><code>__DIR__</code></td>
-<td align="center">The directory of the file. equivalent to <code>dirname(__FILE__)</code>.</td>
-</tr>
-<tr>
-<td><code>__FUNCTION__</code></td>
-<td align="center">The function name.</td>
-</tr>
-<tr>
-<td><code>__CLASS__</code></td>
-<td align="center">The class name. The class name includes the namespace it was declared in (e.g. Foo\Bar).</td>
-</tr>
-<tr>
-<td><code>__TRAIT__</code></td>
-<td align="center">The trait name. The trait name includes the namespace it was declared in (e.g. Foo\Bar).</td>
-</tr>
-<tr>
-<td><code>__METHOD__</code></td>
-<td align="center">The class method name.</td>
-</tr>
-<tr>
-<td><code>__NAMESPACE__</code></td>
-<td align="center">The name of the current namespace.</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Note</strong> :This directory name does not have a trailing slash unless it is the root directory. </p>
+<h2 id="method-function-overriding">Method / Function Overriding</h2>
+<pre><code class="php">&lt;?php
+    class Car{
+
+        //Properties, by default its public
+        var $color = 'green';
+
+        // Private
+        private $engine = 'blah blah';
+
+        // You can declare public prop. like this also
+        public  $price  = 1000000;
+
+        // Protected available to Car Class, and all Sub Classes.
+        protected $no_of_wheels = 4 ;
+
+        //Methods - public by default
+        function drive(){
+            // Accisible only within the class function's code.
+            echo 'Engine : ' . $engine;
+            echo 'driving...';
+        }
+    }
+
+    class TeslaCar extends Car {
+
+        //Prop has $color, $price, $brand along with manufacturer
+        public $manufacturer = 'Elon Musk';
+
+        // The default behaviour drive is being overridden / modified in the subclas
+        function drive(){
+            echo &quot;Self Checking System.. Power ON &lt;br&gt;&quot;;
+            echo &quot;Starting Audio &lt;br&gt;&quot;;
+            echo &quot;driving...&quot;;
+        }
+
+        //Methods has drive() and selfdrive()
+        function selfdrive(){
+            echo 'Self driving is also available along with drive method';
+        }
+    }
+?&gt;
+
+</code></pre>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../arrays/" class="btn btn-neutral float-right" title="Arrays in PHP"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../useful-html-entities/" class="btn btn-neutral float-right" title="Useful HTML Entities"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../data-types/" class="btn btn-neutral" title="Data Types"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../self-this/" class="btn btn-neutral" title="Self & this Special Varialbles"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -340,14 +389,14 @@
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../data-types/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../arrays/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../self-this/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../../useful-html-entities/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-20 15:58:56.817683
+Docs Build Date : 2015-10-20 15:58:56.892449
 -->
 </body>
 </html>

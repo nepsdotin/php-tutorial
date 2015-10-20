@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Constants - Web Development Using PHP, CakePHP</title>
+  <title>Self & this Special Varialbles - Web Development Using PHP, CakePHP</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -57,7 +57,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../php-1/">PHP 1.0</a>
+                <a class="" href="../../unit-3/php-1/">PHP 1.0</a>
                 
             </li>
         
@@ -65,7 +65,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../php-installation/">Installing PHP</a>
+                <a class="" href="../../unit-3/php-installation/">Installing PHP</a>
                 
             </li>
         
@@ -73,7 +73,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../how-web-works/">How Web Works</a>
+                <a class="" href="../../unit-3/how-web-works/">How Web Works</a>
                 
             </li>
         
@@ -81,7 +81,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../how-php-works/">How PHP Works</a>
+                <a class="" href="../../unit-3/how-php-works/">How PHP Works</a>
                 
             </li>
         
@@ -89,26 +89,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../data-types/">Data Types</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 current">
-                <a class="current" href="./">Constants</a>
-                
-                    <ul>
-                    
-                        <li class="toctree-l3"><a href="#constants-in-php">Constants in PHP</a></li>
-                        
-                            <li><a class="toctree-l4" href="#user-defined-constants">User Defined Constants</a></li>
-                        
-                            <li><a class="toctree-l4" href="#magic-constants">Magic Constants</a></li>
-                        
-                    
-                    </ul>
+                <a class="" href="../../unit-3/data-types/">Data Types</a>
                 
             </li>
         
@@ -116,7 +97,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../arrays/">Arrays in PHP</a>
+                <a class="" href="../../unit-3/constants/">Constants</a>
                 
             </li>
         
@@ -124,7 +105,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../u3-handson/">Lets Do something</a>
+                <a class="" href="../../unit-3/arrays/">Arrays in PHP</a>
                 
             </li>
         
@@ -132,7 +113,15 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../u3-echo/">Displaying content in PHP</a>
+                <a class="" href="../../unit-3/u3-handson/">Lets Do something</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-3/u3-echo/">Displaying content in PHP</a>
                 
             </li>
         
@@ -156,7 +145,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/class/">Object Oriented Programming</a>
+                <a class="" href="../class/">Object Oriented Programming</a>
                 
             </li>
         
@@ -164,7 +153,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/constructors/">Constructors & Destructors</a>
+                <a class="" href="../constructors/">Constructors & Destructors</a>
                 
             </li>
         
@@ -172,7 +161,28 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/visibility/">Visibility</a>
+                <a class="" href="../visibility/">Visibility</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 current">
+                <a class="current" href="./">Self & this Special Varialbles</a>
+                
+                    <ul>
+                    
+                        <li class="toctree-l3"><a href="#self-this-special-variables">Self  this Special Variables</a></li>
+                        
+                            <li><a class="toctree-l4" href="#self">Self</a></li>
+                        
+                            <li><a class="toctree-l4" href="#this">this</a></li>
+                        
+                            <li><a class="toctree-l4" href="#static">static</a></li>
+                        
+                    
+                    </ul>
                 
             </li>
         
@@ -180,15 +190,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/self-this/">Self & this Special Varialbles</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/inheritance/">Inheritance</a>
+                <a class="" href="../inheritance/">Inheritance</a>
                 
             </li>
         
@@ -247,7 +249,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../..">Docs</a> &raquo;</li>
     
-    <li>Constants</li>
+    <li>Self & this Special Varialbles</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -256,65 +258,92 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="constants-in-php">Constants in PHP</h1>
-<h2 id="user-defined-constants">User Defined Constants</h2>
-<pre><code>define('LABEL', 'Actual Value')
+              <h1 id="self-this-special-variables">Self &amp; this Special Variables</h1>
+<h2 id="self">Self</h2>
+<p>To refer a property at class level <code>self</code> is used.</p>
+<pre><code>&lt;?php
+class MyClass
+{
+    const CONSTANT = 'constant value';
+
+    function showConstant() {
+        echo  self::CONSTANT . &quot;\n&quot;;
+    }
+}
+
+echo MyClass::CONSTANT . &quot;\n&quot;;
+
+$class = new MyClass();
+$class-&gt;showConstant();
+
+echo $class::CONSTANT.&quot;\n&quot;; // As of PHP 5.3.0
+?&gt;
 </code></pre>
 
-<h2 id="magic-constants">Magic Constants</h2>
-<table>
-<thead>
-<tr>
-<th>Const</th>
-<th align="center">The magic it has</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>__LINE__</code></td>
-<td align="center">The current line number of the file.</td>
-</tr>
-<tr>
-<td><code>__FILE__</code></td>
-<td align="center">The full path and filename of the file with symlinks resolved</td>
-</tr>
-<tr>
-<td><code>__DIR__</code></td>
-<td align="center">The directory of the file. equivalent to <code>dirname(__FILE__)</code>.</td>
-</tr>
-<tr>
-<td><code>__FUNCTION__</code></td>
-<td align="center">The function name.</td>
-</tr>
-<tr>
-<td><code>__CLASS__</code></td>
-<td align="center">The class name. The class name includes the namespace it was declared in (e.g. Foo\Bar).</td>
-</tr>
-<tr>
-<td><code>__TRAIT__</code></td>
-<td align="center">The trait name. The trait name includes the namespace it was declared in (e.g. Foo\Bar).</td>
-</tr>
-<tr>
-<td><code>__METHOD__</code></td>
-<td align="center">The class method name.</td>
-</tr>
-<tr>
-<td><code>__NAMESPACE__</code></td>
-<td align="center">The name of the current namespace.</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Note</strong> :This directory name does not have a trailing slash unless it is the root directory. </p>
+<h2 id="this">this</h2>
+<p>To refer a property at object level <code>this</code> is used.</p>
+<pre><code>&lt;?php
+class Car
+{
+    var $color = 'blue';
+
+    function drive() {
+       echo 'Computer is driving the car with the color :' . $this-&gt;color;
+    }
+}
+
+$obj = new Car();
+$obj-&gt;drive();
+
+?&gt;
+</code></pre>
+
+<h2 id="static">static</h2>
+<p>Declaring class properties or methods as static makes them accessible without needing an instantiation of the class</p>
+<h3 id="static-method">Static Method</h3>
+<pre><code>&lt;?php
+class Foo {
+    public static function aStaticMethod() {
+        // ...
+    }
+}
+
+Foo::aStaticMethod();
+$classname = 'Foo';
+$classname::aStaticMethod(); // As of PHP 5.3.0
+?&gt;
+</code></pre>
+
+<h3 id="static-properties">Static Properties</h3>
+<p>Like any other PHP static variable, static properties may only be initialized using a literal or constant before PHP 5.6; expressions are not allowed. </p>
+<pre><code>&lt;?php
+class Foo
+{
+    public static $my_static = 'foo';
+
+    public function staticValue() {
+        return self::$my_static;
+    }
+}
+
+print Foo::$my_static . &quot;\n&quot;;
+
+$foo = new Foo();
+print $foo-&gt;staticValue() . &quot;\n&quot;;
+print $foo-&gt;my_static . &quot;\n&quot;;      // Undefined &quot;Property&quot; my_static 
+
+?&gt;
+</code></pre>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../arrays/" class="btn btn-neutral float-right" title="Arrays in PHP"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../inheritance/" class="btn btn-neutral float-right" title="Inheritance"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../data-types/" class="btn btn-neutral" title="Data Types"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../visibility/" class="btn btn-neutral" title="Visibility"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -340,14 +369,14 @@
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../data-types/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../arrays/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../visibility/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../inheritance/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-20 15:58:56.817683
+Docs Build Date : 2015-10-20 15:58:56.887348
 -->
 </body>
 </html>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Constants - Web Development Using PHP, CakePHP</title>
+  <title>Variable Scope - Web Development Using PHP, CakePHP</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -57,7 +57,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../php-1/">PHP 1.0</a>
+                <a class="" href="../../unit-3/php-1/">PHP 1.0</a>
                 
             </li>
         
@@ -65,7 +65,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../php-installation/">Installing PHP</a>
+                <a class="" href="../../unit-3/php-installation/">Installing PHP</a>
                 
             </li>
         
@@ -73,7 +73,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../how-web-works/">How Web Works</a>
+                <a class="" href="../../unit-3/how-web-works/">How Web Works</a>
                 
             </li>
         
@@ -81,7 +81,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../how-php-works/">How PHP Works</a>
+                <a class="" href="../../unit-3/how-php-works/">How PHP Works</a>
                 
             </li>
         
@@ -89,7 +89,47 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../data-types/">Data Types</a>
+                <a class="" href="../../unit-3/data-types/">Data Types</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-3/constants/">Constants</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-3/arrays/">Arrays in PHP</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-3/u3-handson/">Lets Do something</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-3/u3-echo/">Displaying content in PHP</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../functions/">Functions</a>
                 
             </li>
         
@@ -97,58 +137,20 @@
     
         
             <li class="toctree-l1 current">
-                <a class="current" href="./">Constants</a>
+                <a class="current" href="./">Variable Scope</a>
                 
                     <ul>
                     
-                        <li class="toctree-l3"><a href="#constants-in-php">Constants in PHP</a></li>
+                        <li class="toctree-l3"><a href="#variable-scope">Variable Scope</a></li>
                         
-                            <li><a class="toctree-l4" href="#user-defined-constants">User Defined Constants</a></li>
+                            <li><a class="toctree-l4" href="#global-scope">Global Scope</a></li>
                         
-                            <li><a class="toctree-l4" href="#magic-constants">Magic Constants</a></li>
+                            <li><a class="toctree-l4" href="#function-scope">Function Scope</a></li>
+                        
+                            <li><a class="toctree-l4" href="#static-variable">Static Variable</a></li>
                         
                     
                     </ul>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../arrays/">Arrays in PHP</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../u3-handson/">Lets Do something</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../u3-echo/">Displaying content in PHP</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../../unit-4/functions/">Functions</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../../unit-4/scope/">Variable Scope</a>
                 
             </li>
         
@@ -247,7 +249,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../..">Docs</a> &raquo;</li>
     
-    <li>Constants</li>
+    <li>Variable Scope</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -256,65 +258,97 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="constants-in-php">Constants in PHP</h1>
-<h2 id="user-defined-constants">User Defined Constants</h2>
-<pre><code>define('LABEL', 'Actual Value')
+              <h1 id="variable-scope">Variable Scope</h1>
+<p>The scope of a variable is the context within which it is defined, and its value is available.</p>
+<h2 id="global-scope">Global Scope</h2>
+<p>Any variable defined will be having </p>
+<ol>
+<li>a global scope in the file it is defined.</li>
+<li>and in the file included via <code>include(), require(), include_once(), require_once()</code></li>
+</ol>
+<pre><code class="php">&lt;?php
+#tea.php
+$v = 100;
+
+include 'sugar.php';
+
+?&gt;
 </code></pre>
 
-<h2 id="magic-constants">Magic Constants</h2>
-<table>
-<thead>
-<tr>
-<th>Const</th>
-<th align="center">The magic it has</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>__LINE__</code></td>
-<td align="center">The current line number of the file.</td>
-</tr>
-<tr>
-<td><code>__FILE__</code></td>
-<td align="center">The full path and filename of the file with symlinks resolved</td>
-</tr>
-<tr>
-<td><code>__DIR__</code></td>
-<td align="center">The directory of the file. equivalent to <code>dirname(__FILE__)</code>.</td>
-</tr>
-<tr>
-<td><code>__FUNCTION__</code></td>
-<td align="center">The function name.</td>
-</tr>
-<tr>
-<td><code>__CLASS__</code></td>
-<td align="center">The class name. The class name includes the namespace it was declared in (e.g. Foo\Bar).</td>
-</tr>
-<tr>
-<td><code>__TRAIT__</code></td>
-<td align="center">The trait name. The trait name includes the namespace it was declared in (e.g. Foo\Bar).</td>
-</tr>
-<tr>
-<td><code>__METHOD__</code></td>
-<td align="center">The class method name.</td>
-</tr>
-<tr>
-<td><code>__NAMESPACE__</code></td>
-<td align="center">The name of the current namespace.</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Note</strong> :This directory name does not have a trailing slash unless it is the root directory. </p>
+<pre><code class="php">&lt;?php
+#sugar.php
+
+// Output wil be 100
+echo $v
+?&gt;
+</code></pre>
+
+<h2 id="function-scope">Function Scope</h2>
+<ol>
+<li>Any variable defined inside the function are available only within the function where it defined. </li>
+<li>Variable defined <strong>outside the function will NOT be available</strong> within the function scope.</li>
+</ol>
+<pre><code class="php">&lt;?php
+
+$person = 'Ramkumar';
+
+sayHelloTo();
+
+function sayHelloTo(){
+    echo &quot;Hello !&quot; . $person;
+}
+
+?&gt;
+</code></pre>
+
+<p>To use the globally scoped variable you need to use <code>global</code> keyword in the function where you wanted to use the variable.</p>
+<pre><code class="php">&lt;?php
+
+$person = 'Ramkumar';
+
+sayHelloTo();
+
+function sayHelloTo(){
+    //Note I am redclaring the same variable inside the function but now
+    //with global keyword before variable $person.
+    global $person;
+
+    // output Hello ! Ramkumar
+    echo &quot;Hello !&quot; . $person;
+}
+
+?&gt;
+</code></pre>
+
+<h2 id="static-variable">Static Variable</h2>
+<ol>
+<li>A static variable exists only in a local function scope, </li>
+<li>but it does not lose its value when program execution leaves this scope.</li>
+</ol>
+<p>Consider the following example: </p>
+<pre><code>// Lets make 10 Omlets using Static variable
+&lt;?php
+exampleStatic( 10 );
+exampleStatic( 10 );
+
+function exampleStatic( $a ){
+    static $i = 0;
+    $i++;
+    echo $i;
+}
+
+?&gt;
+</code></pre>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../arrays/" class="btn btn-neutral float-right" title="Arrays in PHP"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../unit-5/class/" class="btn btn-neutral float-right" title="Object Oriented Programming"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../data-types/" class="btn btn-neutral" title="Data Types"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../functions/" class="btn btn-neutral" title="Functions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -340,14 +374,14 @@
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../data-types/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../arrays/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../functions/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../../unit-5/class/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-20 15:58:56.817683
+Docs Build Date : 2015-10-20 15:58:56.860460
 -->
 </body>
 </html>

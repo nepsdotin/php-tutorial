@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Constants - Web Development Using PHP, CakePHP</title>
+  <title>Visibility - Web Development Using PHP, CakePHP</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -57,7 +57,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../php-1/">PHP 1.0</a>
+                <a class="" href="../../unit-3/php-1/">PHP 1.0</a>
                 
             </li>
         
@@ -65,7 +65,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../php-installation/">Installing PHP</a>
+                <a class="" href="../../unit-3/php-installation/">Installing PHP</a>
                 
             </li>
         
@@ -73,7 +73,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../how-web-works/">How Web Works</a>
+                <a class="" href="../../unit-3/how-web-works/">How Web Works</a>
                 
             </li>
         
@@ -81,7 +81,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../how-php-works/">How PHP Works</a>
+                <a class="" href="../../unit-3/how-php-works/">How PHP Works</a>
                 
             </li>
         
@@ -89,26 +89,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../data-types/">Data Types</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 current">
-                <a class="current" href="./">Constants</a>
-                
-                    <ul>
-                    
-                        <li class="toctree-l3"><a href="#constants-in-php">Constants in PHP</a></li>
-                        
-                            <li><a class="toctree-l4" href="#user-defined-constants">User Defined Constants</a></li>
-                        
-                            <li><a class="toctree-l4" href="#magic-constants">Magic Constants</a></li>
-                        
-                    
-                    </ul>
+                <a class="" href="../../unit-3/data-types/">Data Types</a>
                 
             </li>
         
@@ -116,7 +97,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../arrays/">Arrays in PHP</a>
+                <a class="" href="../../unit-3/constants/">Constants</a>
                 
             </li>
         
@@ -124,7 +105,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../u3-handson/">Lets Do something</a>
+                <a class="" href="../../unit-3/arrays/">Arrays in PHP</a>
                 
             </li>
         
@@ -132,7 +113,15 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../u3-echo/">Displaying content in PHP</a>
+                <a class="" href="../../unit-3/u3-handson/">Lets Do something</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-3/u3-echo/">Displaying content in PHP</a>
                 
             </li>
         
@@ -156,7 +145,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/class/">Object Oriented Programming</a>
+                <a class="" href="../class/">Object Oriented Programming</a>
                 
             </li>
         
@@ -164,7 +153,28 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/constructors/">Constructors & Destructors</a>
+                <a class="" href="../constructors/">Constructors & Destructors</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 current">
+                <a class="current" href="./">Visibility</a>
+                
+                    <ul>
+                    
+                        <li class="toctree-l3"><a href="#visibility">Visibility</a></li>
+                        
+                            <li><a class="toctree-l4" href="#public">Public</a></li>
+                        
+                            <li><a class="toctree-l4" href="#protected">Protected</a></li>
+                        
+                            <li><a class="toctree-l4" href="#private">Private</a></li>
+                        
+                    
+                    </ul>
                 
             </li>
         
@@ -172,7 +182,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/visibility/">Visibility</a>
+                <a class="" href="../self-this/">Self & this Special Varialbles</a>
                 
             </li>
         
@@ -180,15 +190,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/self-this/">Self & this Special Varialbles</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/inheritance/">Inheritance</a>
+                <a class="" href="../inheritance/">Inheritance</a>
                 
             </li>
         
@@ -247,7 +249,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../..">Docs</a> &raquo;</li>
     
-    <li>Constants</li>
+    <li>Visibility</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -256,65 +258,78 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="constants-in-php">Constants in PHP</h1>
-<h2 id="user-defined-constants">User Defined Constants</h2>
-<pre><code>define('LABEL', 'Actual Value')
-</code></pre>
+              <h1 id="visibility">Visibility</h1>
+<h3 id="public">Public</h3>
+<p>Class members declared public can be accessed everywhere.</p>
+<h3 id="protected">Protected</h3>
+<p>Members declared protected can be accessed only within the class itself and by inherited classes.</p>
+<h3 id="private">Private</h3>
+<p>Members declared as private may only be accessed by the class that defines the member.</p>
+<h4 id="note">Note</h4>
+<p><strong> variables &amp; functions are public by default </strong></p>
+<p>By default If declared using var, the property will be defined as public. Contrary to the OOPS Pradigms of <strong>Data Hiding</strong></p>
+<p>By default if declared without using <code>visibility</code> its declared as <code>public</code> function. This is in accordance with OOPS Pradigms <code>methods are always public</code></p>
+<h4 id="example">Example:</h4>
+<pre><code class="php">&lt;?php
+    class Car{
 
-<h2 id="magic-constants">Magic Constants</h2>
-<table>
-<thead>
-<tr>
-<th>Const</th>
-<th align="center">The magic it has</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>__LINE__</code></td>
-<td align="center">The current line number of the file.</td>
-</tr>
-<tr>
-<td><code>__FILE__</code></td>
-<td align="center">The full path and filename of the file with symlinks resolved</td>
-</tr>
-<tr>
-<td><code>__DIR__</code></td>
-<td align="center">The directory of the file. equivalent to <code>dirname(__FILE__)</code>.</td>
-</tr>
-<tr>
-<td><code>__FUNCTION__</code></td>
-<td align="center">The function name.</td>
-</tr>
-<tr>
-<td><code>__CLASS__</code></td>
-<td align="center">The class name. The class name includes the namespace it was declared in (e.g. Foo\Bar).</td>
-</tr>
-<tr>
-<td><code>__TRAIT__</code></td>
-<td align="center">The trait name. The trait name includes the namespace it was declared in (e.g. Foo\Bar).</td>
-</tr>
-<tr>
-<td><code>__METHOD__</code></td>
-<td align="center">The class method name.</td>
-</tr>
-<tr>
-<td><code>__NAMESPACE__</code></td>
-<td align="center">The name of the current namespace.</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Note</strong> :This directory name does not have a trailing slash unless it is the root directory. </p>
+        //Properties, by default its public
+        var $color = 'green';
+
+        // You can declare public prop. like this also
+        public  $price  = 1000000;
+
+        // Private
+        private $engine = 'blah blah';
+
+        // Protected available to Car Class, and all Sub Classes.
+        protected $no_of_wheels = 4 ;
+
+        //Method, by default its public
+        function drive(){
+            // Accisible only within the class function's code.
+            echo 'Engine : ' . $this-&gt;engine;
+            echo 'driving...';
+        }
+
+        // Private method to apply Airbag when accidents happen.
+        private function openAirBag(){
+            echo 'Openning Airbag for Emergency....';
+        }
+    }
+
+    class TeslaCar extends Car {
+
+        //Prop has $color, $price, $brand along with manufacturer
+        public $manufacturer = 'Elon Musk';
+
+        //Methods has drive() and selfdrive()
+        function selfdrive(){
+            echo 'Self driving is also available along with driving';
+        }
+    }
+
+    $car_obj = new Car;
+
+    // Fails
+    //echo $car_obj-&gt;engine;
+
+    // public prop
+    echo 'Color : ' . $car_obj-&gt;color;
+    echo 'Price : ' . $car_obj-&gt;price;
+
+?&gt;
+</code></pre>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../arrays/" class="btn btn-neutral float-right" title="Arrays in PHP"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../self-this/" class="btn btn-neutral float-right" title="Self & this Special Varialbles"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../data-types/" class="btn btn-neutral" title="Data Types"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../constructors/" class="btn btn-neutral" title="Constructors & Destructors"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -340,14 +355,14 @@
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../data-types/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../arrays/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../constructors/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../self-this/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-20 15:58:56.817683
+Docs Build Date : 2015-10-20 15:58:56.880162
 -->
 </body>
 </html>

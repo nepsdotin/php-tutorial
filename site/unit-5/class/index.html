@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Functions - Web Development Using PHP, CakePHP</title>
+  <title>Object Oriented Programming - Web Development Using PHP, CakePHP</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -128,24 +128,30 @@
 
     
         
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-4/functions/">Functions</a>
+                
+            </li>
+        
+
+    
+        
+            <li class="toctree-l1 ">
+                <a class="" href="../../unit-4/scope/">Variable Scope</a>
+                
+            </li>
+        
+
+    
+        
             <li class="toctree-l1 current">
-                <a class="current" href="./">Functions</a>
+                <a class="current" href="./">Object Oriented Programming</a>
                 
                     <ul>
                     
-                        <li class="toctree-l3"><a href="#functions">Functions</a></li>
+                        <li class="toctree-l3"><a href="#object-oriented-programming">Object Oriented Programming</a></li>
                         
-                            <li><a class="toctree-l4" href="#1-builtin-functions">1. Builtin Functions</a></li>
-                        
-                            <li><a class="toctree-l4" href="#2-user-defined-functions">2. User Defined Functions</a></li>
-                        
-                            <li><a class="toctree-l4" href="#function-arguments">Function Arguments</a></li>
-                        
-                    
-                        <li class="toctree-l3"><a href="#important-to-note">Important To Note</a></li>
-                        
-                    
-                        <li class="toctree-l3"><a href="#tips">Tips</a></li>
+                            <li><a class="toctree-l4" href="#how-to-create-objects">How To Create Objects.</a></li>
                         
                     
                     </ul>
@@ -156,7 +162,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../scope/">Variable Scope</a>
+                <a class="" href="../constructors/">Constructors & Destructors</a>
                 
             </li>
         
@@ -164,7 +170,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/class/">Object Oriented Programming</a>
+                <a class="" href="../visibility/">Visibility</a>
                 
             </li>
         
@@ -172,7 +178,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/constructors/">Constructors & Destructors</a>
+                <a class="" href="../self-this/">Self & this Special Varialbles</a>
                 
             </li>
         
@@ -180,23 +186,7 @@
     
         
             <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/visibility/">Visibility</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/self-this/">Self & this Special Varialbles</a>
-                
-            </li>
-        
-
-    
-        
-            <li class="toctree-l1 ">
-                <a class="" href="../../unit-5/inheritance/">Inheritance</a>
+                <a class="" href="../inheritance/">Inheritance</a>
                 
             </li>
         
@@ -255,7 +245,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../..">Docs</a> &raquo;</li>
     
-    <li>Functions</li>
+    <li>Object Oriented Programming</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -264,115 +254,112 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="functions">Functions</h1>
-<h2 id="1-builtin-functions">1. Builtin Functions</h2>
-<p>There are multitudes of functions easy to use for our application development. They can help us to process data
-1. String Processing
-2. Array Processing</p>
-<h2 id="2-user-defined-functions">2. User Defined Functions</h2>
-<h3 id="syntax">Syntax</h3>
-<pre><code>function functionName( parameter1, parameter2,...., param_n ){
-    /* Any valid php code goes here */
-    function_body
-
-    return return_value;
-}
-</code></pre>
-
-<p>Functions need not be defined before they are referenced.</p>
-<h3 id="valid-function">Valid function</h3>
-<pre><code>// The function is called before the function is defined.
-hello();
-
-function hello(){
-
-}
-
-// 
-</code></pre>
-
-<h3 id="functions-within-functions">Functions within Functions</h3>
+              <h1 id="object-oriented-programming">Object Oriented Programming</h1>
+<h2 id="how-to-create-objects">How To Create Objects.</h2>
+<h3 id="to-make-a-cake-you-need-a-mould-to-make-objects-you-need-class">To make a Cake you need a mould, To make Objects You need Class</h3>
+<p><img alt="Template" src="../images/cake_mould.jpg" /></p>
+<ol>
+<li>
+<p>How many ever cakes can be produced from the same mould. Similarly anynumber of objects can be made from the class.</p>
+</li>
+<li>
+<p>Cakes will be have same properties like <code>size, shape, weight</code> Similary Objects will have the same properties of the class.</p>
+</li>
+</ol>
+<h3 id="class">Class</h3>
+<p>A Class has</p>
+<ol>
+<li>
+<p>Properties or Attributes </p>
+<p>Which describes/defines something or some aspect about the Class like <code>color</code>,
+<code>measurement</code>.</p>
+</li>
+<li>
+<p>Methods / Member functions</p>
+<p>Which describes or holds the instructions of a specific operation about the class.</p>
+</li>
+</ol>
+<h3 id="creating-class">Creating Class</h3>
 <pre><code>&lt;?php
-function makeOmlet(){
+    class Car{
 
-    echo &quot;Making Omlet&quot;;
-    function makebreadOmlet(){
-        echo &quot;Making Breadomlet&quot;;
+    //Properties
+    var    $color = 'green';
+    var    $price = 1000000 ;
+    var    $brand = 'Honda City';
+
+        //Methods
+        function drive(){
+            echo 'driving...';
+        }
     }
-}
 
-// We can't call makebreadOmlet() till we make omlet
-makeOmlet();
+    //Creating Object mycar New keyword is mandate
+    $mycar = new Car;
 
-makebreadOmlet();
-
-// Trying to call first makebreadOmlet() before calling makeOmlet() won't work.
+    // Class Name with () and without () both are same.
+    $yourcar = new Car();
 ?&gt;
 </code></pre>
 
-<h3 id="recursive-functions">Recursive Functions</h3>
-<pre><code>// Lets make 10 Omlets
-&lt;?php
-makeOmlet( 10 );
+<h3 id="constants-in-class-can-be-defined-using-const-not-define">Constants in class can be defined using <code>const</code> not <code>define</code></h3>
+<p>It is possible to define constant values on a per-class basis remaining the same and unchangeable. Constants differ from normal variables in that you don't use the $ symbol to declare or use them.</p>
+<p>The value must be a constant expression, not (for example) a variable, a property, or a function call.</p>
+<p>It's also possible for interfaces to have constants. Look at the interface documentation for examples.</p>
+<pre><code>define('MIN_VALUE', '0.0');   // RIGHT - Works OUTSIDE of a class definition.
+define('MAX_VALUE', '1.0');   // RIGHT - Works OUTSIDE of a class definition.
 
-function makeOmlet( $a ){
-    if( $a &gt; 1){
-        echo &quot; &lt;/br&gt; Making Omlet &quot; . $a;
-        makeOmlet( $a - 1 );
-    }
-}
-?&gt;
-</code></pre>
+//const MIN_VALUE = 0.0;         WRONG - Works INSIDE of a class definition.
+//const MAX_VALUE = 1.0;         WRONG - Works INSIDE of a class definition.
 
-<h2 id="function-arguments">Function Arguments</h2>
-<p>Information may be passed to functions via the argument list, which is a comma-delimited list of expressions. The arguments are evaluated from left to right.</p>
-<p>### Default Arguments</p>
-<pre><code>// Let's make a Tea
-function makeTea( $type ='lime' ){
-    echo &quot;I ll be making &quot; . $type . &quot; Tea in a Min.&quot;;
-}
-</code></pre>
-
-<h4 id="what-is-the-output-of-the-following-code">What is the output of the following code</h4>
-<pre><code>function makeyogurt($type = &quot;acidophilus&quot;, $flavour)
+class Constants
 {
-    return &quot;Making a bowl of $type $flavour.\n&quot;;
-}
+  //define('MIN_VALUE', '0.0');  WRONG - Works OUTSIDE of a class definition.
+  //define('MAX_VALUE', '1.0');  WRONG - Works OUTSIDE of a class definition.
 
-echo makeyogurt(&quot;raspberry&quot;);
+  const MIN_VALUE = 0.0;      // RIGHT - Works INSIDE of a class definition.
+  const MAX_VALUE = 1.0;      // RIGHT - Works INSIDE of a class definition.
+
+  const SEC_PER_DAY = 60 * 60 * 24; // as of PHP 5.6 expressions allowed.
+  public static function getMinValue()
+  {
+    return self::MIN_VALUE;
+  }
+}
 </code></pre>
 
-<h1 id="important-to-note">Important To Note</h1>
-<ol>
-<li>By default, function arguments are <strong>passed by value</strong> (so that if the value of the argument within the function is changed, it does not get changed outside of the function).</li>
-<li><strong>prepend an ampersand (&amp;)</strong> to the argument name in the <strong>function definition</strong>.</li>
-<li>Don't Need to <strong>prepend an ampersand (&amp;)</strong> when you <strong>call</strong> the function.Try it! You may get error</li>
-</ol>
-<h1 id="tips">Tips</h1>
-<ol>
-<li>
-<p>PHP does not support function overloading, nor is it possible to undefine or redefine previously-declared functions.</p>
-</li>
-<li>
-<p>Function names are case-insensitive, though it is usually good form to call functions as they appear in their declaration.</p>
-</li>
-<li>
-<p>all array functions ($needle, $haystack). Eg. <code>in_array($needle, $haystack)</code></p>
-</li>
-<li>
-<p>all string functions ($haystack, $needle). Eg. <code>strstr($haystack, $needle)</code></p>
-</li>
-</ol>
+<h3 id="example-of-class-with-constant-and-how-it-can-be-accessed">Example of Class with Constant and how it can be accessed</h3>
+<pre><code>&lt;?php
+class MyClass
+{
+    const CONSTANT = 'constant value';
+
+    function showConstant() {
+        echo  self::CONSTANT . &quot;\n&quot;;
+    }
+}
+
+echo MyClass::CONSTANT . &quot;\n&quot;;
+
+$classname = &quot;MyClass&quot;;
+echo $classname::CONSTANT . &quot;\n&quot;; // As of PHP 5.3.0
+
+$class = new MyClass();
+$class-&gt;showConstant();
+
+echo $class::CONSTANT.&quot;\n&quot;; // As of PHP 5.3.0
+?&gt;
+</code></pre>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../scope/" class="btn btn-neutral float-right" title="Variable Scope"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../constructors/" class="btn btn-neutral float-right" title="Constructors & Destructors"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../unit-3/u3-echo/" class="btn btn-neutral" title="Displaying content in PHP"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../unit-4/scope/" class="btn btn-neutral" title="Variable Scope"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -398,14 +385,14 @@ echo makeyogurt(&quot;raspberry&quot;);
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../../unit-3/u3-echo/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../scope/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../../unit-4/scope/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../constructors/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-20 15:58:56.852602
+Docs Build Date : 2015-10-20 15:58:56.868769
 -->
 </body>
 </html>
