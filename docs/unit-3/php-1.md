@@ -60,13 +60,36 @@ echo "<h1>Hello World</h1>";
 ```
 To run this program
 
+```
+php -f unit-3-ex-1.php
+```
 ### Interactive Shell / Mode (Ex.2)
-#### Syntax
-```
-php -a
 
-echo "Hello World";
+### Interactive Shell
+
+1. You can execute one command at a time
+2. Does tab completion for functions, constants, class names, variables, static method calls and class constants.
+
+#### Syntax : `php -a`
+
 ```
+# Should be the prompt
+Interactive Shell
+php > 
+```
+
+```
+php > strp[TAB][TAB]
+strpbrk   strpos    strptime  
+php > strp
+```
+
+### Interactive Mode
+
+1. `php -a` is the same syntax as you use it for interactive shell. 
+2. Interactive mode is essentially like running php with what the user types as the file input. 
+3. You just type code, and when you're done (Ctrl-D), php executes whatever you typed as if it were a normal PHP file. 
+4. You start in interactive mode with `'<?php'` in order to execute code.
 
 ### Various Options 
 ```
