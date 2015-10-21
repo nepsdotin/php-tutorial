@@ -85,8 +85,6 @@ Same as print_r() but display along with the data types
 void var_dump ( mixed $expression [, mixed $... ] )
 ```
 
-## nowdoc
-
 ## heredoc
  A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation.
 
@@ -99,7 +97,7 @@ HELLO
 ?>
 ```
 
-### nowdoc
+## nowdoc
 A nowdoc is identified with the same <<< sequence used for heredocs, but the identifier which follows is enclosed in single quotes, e.g. <<<'EOT'. All the rules for heredoc identifiers also apply to nowdoc identifiers, especially those regarding the appearance of the closing identifier.
 
 ```
