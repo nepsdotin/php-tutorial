@@ -2,6 +2,7 @@
 
 ## 1. Builtin Functions
 There are multitudes of functions easy to use for our application development. They can help us to process data
+
 1. String Processing
 2. Array Processing
 
@@ -22,7 +23,7 @@ Functions need not be defined before they are referenced.
 
 ### Valid function
 ```
-// The function is called before the function is defined.
+// The function can be called before the function is defined.
 hello();
 
 function hello(){
