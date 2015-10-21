@@ -4,7 +4,7 @@
 
 #### Ways to Create PHP Scripts
 1. All PHP code should be place only in
-    1.1 `(.php, .php3, .php4, php5, .phtml)` typically in php file for simplicity and convention.
+    1.1 `(.php, .php3, .php4, php5, .phtml)` typically in `.php` file for simplicity and convention.
 
 2. In PHP file you php code should always be enclosed inside one of the tag
     1.  `<?php ?>`  ( Generally used ) or
@@ -18,9 +18,6 @@
 
 2. Since PHP Ver 5.4.0 The tag <?= is always available regardless of the short_open_tag ini setting. Prior to 5.4.0 Developer should explicitly do this setting in php.ini `short_open_tag = On`
 
-asdf
-asdf
-asdf
 ## Leaderboard 
 ### Print an ASSOC. ARRAY as a Table / ASCII Table
 ```
@@ -57,5 +54,3 @@ Display them as a Table
 | 4          | Priyanka| 90    |
 +------------+-------+---------+
 ```
-
-### 
