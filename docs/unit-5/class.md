@@ -49,11 +49,13 @@ A Class has
 
 ### Constants in class can be defined using `const` not `define`
 
-It is possible to define constant values on a per-class basis remaining the same and unchangeable. Constants differ from normal variables in that you don't use the $ symbol to declare or use them.
+1. It is possible to define constant values on a per-class basis remaining the same and unchangeable. 
 
-The value must be a constant expression, not (for example) a variable, a property, or a function call.
+2. Constants differ from normal variables in that you don't use the **$** symbol to declare or use them.
 
-It's also possible for interfaces to have constants. Look at the interface documentation for examples.
+3. The value must be a constant expression, not (for example) a variable, a property, or a function call.
+
+4. It's also possible for interfaces to have constants. Look at the interface documentation for examples.
 
 
 
@@ -80,7 +82,7 @@ class Constants
 }
 ```
 
-### Example of Class with Constant and how it can be accessed
+### Example of Class with Constant and different ways it can be accessed
 
 ```
 <?php
