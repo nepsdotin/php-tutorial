@@ -27,6 +27,49 @@ include 'sugar.php';
 echo $v
 ?>
 ```
+
+Common use is as follows 
+
+### config.php
+
+We Store the config details once in `config.php` and include it whenever we want. In our example we are including in `userdetails.php`
+
+Since PHP provides **global** scope to the included files we enjoy these kinds of patterns.
+
+```php
+<?php
+//config.php
+
+// We declare the db config info in config.php and whenever we require that
+// we include and the values can be accessed in the file it is included.
+$db_host = 'localhost';
+$db_name = 'students_db';
+$db_username = 'prem';
+$db_password = 'prem';
+
+
+?>
+```
+### userdetails.php
+```php
+<?php
+//Userdetails.php
+
+include 'config.php';
+
+//can use $db_host, $db_username, $db_password 
+//Very useful usecase is possible because of the global scope.
+$link = mysql_connect( $db_host, $db_username, $db_password )
+
+if( !$link ){
+    die('Could not connect: ' . mysql_error());
+}
+
+echo 'Connected successfully';
+mysql_close($link);
+?>
+```
+
 ## Function Scope
 
 1. Any variable defined inside the function are available only within the function where it defined. 
