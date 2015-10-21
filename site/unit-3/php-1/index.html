@@ -331,13 +331,33 @@ echo &quot;&lt;h1&gt;Hello World&lt;/h1&gt;&quot;;
 </code></pre>
 
 <p>To run this program</p>
-<h3 id="interactive-shell-mode-ex2">Interactive Shell / Mode (Ex.2)</h3>
-<h4 id="syntax_1">Syntax</h4>
-<pre><code>php -a
-
-echo &quot;Hello World&quot;;
+<pre><code>php -f unit-3-ex-1.php
 </code></pre>
 
+<h3 id="interactive-shell-mode-ex2">Interactive Shell / Mode (Ex.2)</h3>
+<h3 id="interactive-shell">Interactive Shell</h3>
+<ol>
+<li>You can execute one command at a time</li>
+<li>Does tab completion for functions, constants, class names, variables, static method calls and class constants.</li>
+</ol>
+<h4 id="syntax-php-a">Syntax : <code>php -a</code></h4>
+<pre><code># Should be the prompt
+Interactive Shell
+php &gt; 
+</code></pre>
+
+<pre><code>php &gt; strp[TAB][TAB]
+strpbrk   strpos    strptime  
+php &gt; strp
+</code></pre>
+
+<h3 id="interactive-mode">Interactive Mode</h3>
+<ol>
+<li><code>php -a</code> is the same syntax as you use it for interactive shell. </li>
+<li>Interactive mode is essentially like running php with what the user types as the file input. </li>
+<li>You just type code, and when you're done (Ctrl-D), php executes whatever you typed as if it were a normal PHP file. </li>
+<li>You start in interactive mode with <code>'&lt;?php'</code> in order to execute code.</li>
+</ol>
 <h3 id="various-options">Various Options</h3>
 <pre><code>php --help
 XCache requires Zend Engine API version 220100525.
@@ -447,7 +467,7 @@ php --ini
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-20 15:58:56.781017
+Docs Build Date : 2015-10-21 17:52:57.692670
 -->
 </body>
 </html>

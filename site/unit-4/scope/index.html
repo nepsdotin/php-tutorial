@@ -283,6 +283,43 @@ echo $v
 ?&gt;
 </code></pre>
 
+<p>Common use is as follows </p>
+<h3 id="configphp">config.php</h3>
+<p>We Store the config details once in <code>config.php</code> and include it whenever we want. In our example we are including in <code>userdetails.php</code></p>
+<p>Since PHP provides <strong>global</strong> scope to the included files we enjoy these kinds of patterns.</p>
+<pre><code class="php">&lt;?php
+//config.php
+
+// We declare the db config info in config.php and whenever we require that
+// we include and the values can be accessed in the file it is included.
+$db_host = 'localhost';
+$db_name = 'students_db';
+$db_username = 'prem';
+$db_password = 'prem';
+
+
+?&gt;
+</code></pre>
+
+<h3 id="userdetailsphp">userdetails.php</h3>
+<pre><code class="php">&lt;?php
+//Userdetails.php
+
+include 'config.php';
+
+//can use $db_host, $db_username, $db_password 
+//Very useful usecase is possible because of the global scope.
+$link = mysql_connect( $db_host, $db_username, $db_password )
+
+if( !$link ){
+    die('Could not connect: ' . mysql_error());
+}
+
+echo 'Connected successfully';
+mysql_close($link);
+?&gt;
+</code></pre>
+
 <h2 id="function-scope">Function Scope</h2>
 <ol>
 <li>Any variable defined inside the function are available only within the function where it defined. </li>
@@ -381,7 +418,7 @@ function exampleStatic( $a ){
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-20 15:58:56.860460
+Docs Build Date : 2015-10-21 17:52:57.769668
 -->
 </body>
 </html>

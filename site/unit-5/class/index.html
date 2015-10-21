@@ -303,9 +303,20 @@
 </code></pre>
 
 <h3 id="constants-in-class-can-be-defined-using-const-not-define">Constants in class can be defined using <code>const</code> not <code>define</code></h3>
-<p>It is possible to define constant values on a per-class basis remaining the same and unchangeable. Constants differ from normal variables in that you don't use the $ symbol to declare or use them.</p>
+<ol>
+<li>
+<p>It is possible to define constant values on a per-class basis remaining the same and unchangeable. </p>
+</li>
+<li>
+<p>Constants differ from normal variables in that you don't use the <strong>$</strong> symbol to declare or use them.</p>
+</li>
+<li>
 <p>The value must be a constant expression, not (for example) a variable, a property, or a function call.</p>
+</li>
+<li>
 <p>It's also possible for interfaces to have constants. Look at the interface documentation for examples.</p>
+</li>
+</ol>
 <pre><code>define('MIN_VALUE', '0.0');   // RIGHT - Works OUTSIDE of a class definition.
 define('MAX_VALUE', '1.0');   // RIGHT - Works OUTSIDE of a class definition.
 
@@ -328,7 +339,7 @@ class Constants
 }
 </code></pre>
 
-<h3 id="example-of-class-with-constant-and-how-it-can-be-accessed">Example of Class with Constant and how it can be accessed</h3>
+<h3 id="example-of-class-with-constant-and-different-ways-it-can-be-accessed">Example of Class with Constant and different ways it can be accessed</h3>
 <pre><code>&lt;?php
 class MyClass
 {
@@ -392,7 +403,7 @@ echo $class::CONSTANT.&quot;\n&quot;; // As of PHP 5.3.0
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-10-20 15:58:56.868769
+Docs Build Date : 2015-10-21 17:52:57.779022
 -->
 </body>
 </html>
