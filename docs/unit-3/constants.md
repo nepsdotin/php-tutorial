@@ -19,4 +19,4 @@ define('LABEL', 'Actual Value')
 | `__NAMESPACE__` | The name of the current namespace. |
 
 
-**Note** :This directory name does not have a trailing slash unless it is the root directory. 
+**Note** : directory name `__DIR__` does not have a trailing slash unless it is the root directory. 
